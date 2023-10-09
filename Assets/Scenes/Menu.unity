@@ -349,7 +349,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 87154762}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 151008601}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: OnClickExit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &87154762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -418,6 +430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ImageFade: {fileID: 1209434256}
+  MenuOptions: {fileID: 1438828727}
 --- !u!4 &151008602
 Transform:
   m_ObjectHideFlags: 0
@@ -1863,6 +1876,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2011946927846513669, guid: 3d15edbe83ca3324e8c51ac6b5e00f00, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011946927846513669, guid: 3d15edbe83ca3324e8c51ac6b5e00f00, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011946927846513669, guid: 3d15edbe83ca3324e8c51ac6b5e00f00, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 151008601}
+    - target: {fileID: 2011946927846513669, guid: 3d15edbe83ca3324e8c51ac6b5e00f00, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011946927846513669, guid: 3d15edbe83ca3324e8c51ac6b5e00f00, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnClickOptions
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011946927846513669, guid: 3d15edbe83ca3324e8c51ac6b5e00f00, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MainMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011946927846513669, guid: 3d15edbe83ca3324e8c51ac6b5e00f00, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7607298203257623887, guid: 3d15edbe83ca3324e8c51ac6b5e00f00, type: 3}
       propertyPath: m_text
       value: Options
@@ -1968,7 +2009,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1438828728}
   m_Layer: 0
-  m_Name: Options
+  m_Name: MenuOptions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

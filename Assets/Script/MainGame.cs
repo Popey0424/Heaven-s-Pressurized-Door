@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 
 public class MainGame : MonoBehaviour
@@ -12,6 +13,7 @@ public class MainGame : MonoBehaviour
     public TMP_Text TextCharacterName;
     public Image ImageCharacter;
     public DialogSequence[] Dialogs;
+    public Image spriteBackground;
      
 
     int _sequenceNumber;
@@ -22,7 +24,7 @@ public class MainGame : MonoBehaviour
         TextDialog.text = sequence.TextDialog;
         TextCharacterName.text = sequence.TextNameCharacter;
         ImageCharacter.sprite = sequence.SpriteCharacter;
-        
+        spriteBackground.sprite = sequence.SpriteBackground;
 
     }
 

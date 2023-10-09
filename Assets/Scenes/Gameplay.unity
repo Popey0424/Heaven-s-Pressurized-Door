@@ -316,6 +316,7 @@ MonoBehaviour:
   - {fileID: 734831438}
   - {fileID: 0}
   - {fileID: 0}
+  spriteBackground: {fileID: 0}
 --- !u!114 &177420053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -455,6 +456,7 @@ MonoBehaviour:
     of you. You will find these safety instructions in the seat pocket facing you. '
   TextNameCharacter: Player
   SpriteCharacter: {fileID: 21300000, guid: dc9e7489c08fc0d42b768794f8a9b7ef, type: 3}
+  SpriteBackground: {fileID: 0}
 --- !u!1 &252091013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1008,6 +1010,7 @@ MonoBehaviour:
   TextDialog: qdqdqzdzqdq
   TextNameCharacter: dqdqzdqzdqzdqz
   SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 0}
 --- !u!1 &793158839
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,6 +1058,7 @@ MonoBehaviour:
   TextDialog: 
   TextNameCharacter: LLLLLLLL
   SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 0}
 --- !u!1 &1070375662
 GameObject:
   m_ObjectHideFlags: 0
@@ -1102,6 +1106,7 @@ MonoBehaviour:
   TextDialog: Oh my God, we are doomed. What have we done ??!!
   TextNameCharacter: Robert
   SpriteCharacter: {fileID: 21300000, guid: 1c2da15697a9f534b9ff3d33483d4934, type: 3}
+  SpriteBackground: {fileID: 0}
 --- !u!1 &1189845917
 GameObject:
   m_ObjectHideFlags: 0
@@ -1152,6 +1157,7 @@ MonoBehaviour:
     your seatbelt and your little ones too securely until the end of the sign. '
   TextNameCharacter: Player
   SpriteCharacter: {fileID: 21300000, guid: dc9e7489c08fc0d42b768794f8a9b7ef, type: 3}
+  SpriteBackground: {fileID: 0}
 --- !u!1 &1261560042
 GameObject:
   m_ObjectHideFlags: 0
@@ -1510,7 +1516,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1694434320}
   - component: {fileID: 1694434322}
-  - component: {fileID: 1694434321}
   m_Layer: 0
   m_Name: Dialog06
   m_TagString: Untagged
@@ -1533,19 +1538,6 @@ Transform:
   m_Father: {fileID: 1431248216}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1694434321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1694434319}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c06e58ce497f9424b80bd0b35606816b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DialogText: {fileID: 0}
 --- !u!114 &1694434322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1561,6 +1553,7 @@ MonoBehaviour:
   TextDialog: '"Me, me, I flew a plane once !"'
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 0}
 --- !u!1 &1794095530
 GameObject:
   m_ObjectHideFlags: 0
@@ -1687,6 +1680,7 @@ MonoBehaviour:
     safety instrustions." (0)'
   TextNameCharacter: David Jones
   SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 0}
 --- !u!1 &1901377867
 GameObject:
   m_ObjectHideFlags: 0
@@ -1734,6 +1728,7 @@ MonoBehaviour:
   TextDialog: HTHFT
   TextNameCharacter: DZDQDZ
   SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 0}
 --- !u!1 &1914705086
 GameObject:
   m_ObjectHideFlags: 0

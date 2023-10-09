@@ -10,7 +10,9 @@ using static UnityEditor.Progress;
 public class MainMenu : MonoBehaviour
 {
     [SerializeField] private Image ImageFade;
+    [SerializeField] private GameObject MenuOptions;
     
+
     public void OnClickPlay()
     {
         ImageFade.DOFade(1, 0.8f).OnComplete(FadeComplete);
@@ -21,4 +23,18 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Gameplay");
     }
 
+    public void OnClickOptions()
+    {
+        MenuOptions.SetActive(true);
+    }
+
+    public void OnClickExit()
+    {
+        MenuOptions.SetActive(false);
+    }
+
+    public void OnClickQuit()
+    {
+        
+    }
 }
