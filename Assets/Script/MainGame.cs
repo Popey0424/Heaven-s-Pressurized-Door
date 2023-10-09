@@ -17,6 +17,7 @@ public class MainGame : MonoBehaviour
     public TMP_Text choice1;
     public TMP_Text choice2;
     public Image ImageCharacter2;
+    [SerializeField] private Button Choice1Button;
 
 
     int _sequenceNumber;
@@ -32,6 +33,7 @@ public class MainGame : MonoBehaviour
         if (isChoice)
         {
             choice1.text = sequence.Choice1;
+            Choice1Button.SetActive(true);
             choice2.text = sequence.Choice2;
         }
         ImageCharacter2.sprite = sequence.SpriteCharacter;
