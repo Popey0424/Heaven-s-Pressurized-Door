@@ -33,7 +33,7 @@ public class MainGame : MonoBehaviour
         if (isChoice)
         {
             choice1.text = sequence.Choice1;
-            Choice1Button.SetActive(true);
+            //Choice1Button.SetActive(true);
             choice2.text = sequence.Choice2;
         }
         ImageCharacter2.sprite = sequence.SpriteCharacter;
