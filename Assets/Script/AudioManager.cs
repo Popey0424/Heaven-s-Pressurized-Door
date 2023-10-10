@@ -1,35 +1,26 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
+using System;
 
 public class AudioManager : MonoBehaviour
 {
-    public static AudioManager instance;
-    private float globalVolume = 1.0f;
+    public Sound[] sounds;
 
-    private void Awake()
+    void Awake()
     {
-        if (instance == null)
+       foreach(Sound s in sounds)
         {
-            instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-            return;
-        }
+            s.source = gameObject.AddComponent<AudioSource>();
+            s.source.clip = s.clip;
 
-        DontDestroyOnLoad(gameObject);
+            s.source.volume = s.volume;
+            s.source.pitch = s.pitch;  
+        } 
     }
 
-    public void PlaySound(AudioClip sound)
+    public void Play (string name)
     {
-
-    }
-
-    public void SetGlobalVolume(float volume)
-    {
-        globalVolume = Mathf.Clamp01(volume);
-        AudioListener.volume = globalVolume;
+        Sound s = Array.Find(sounds, sound => sound.name == name);
+        s.source.Play();
     }
 }

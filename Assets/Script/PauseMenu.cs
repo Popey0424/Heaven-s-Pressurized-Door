@@ -11,5 +11,9 @@ public class PauseMenu : MonoBehaviour
         MenuPause.SetActive(true);
     }
 
+    public void OnClickResume()
+    {
+        MenuPause.SetActive(false);
+    }
 
 }

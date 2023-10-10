@@ -15,7 +15,7 @@ public class MainMenu : MonoBehaviour
 
     public void OnClickPlay()
     {
-        ImageFade.DOFade(1, 0.8f).OnComplete(FadeComplete);
+        ImageFade.DOFade(1, 2.9f).OnComplete(FadeComplete);
     }
 
     private void FadeComplete()

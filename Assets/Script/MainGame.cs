@@ -19,6 +19,10 @@ public class MainGame : MonoBehaviour
     public Image ImageCharacter2;
     [SerializeField] private Button Choice1Button;
 
+    public TextMeshProUGUI textComponent;
+    public string[] lines;
+    public float textSpeed;
+
 
     int _sequenceNumber;
 
@@ -36,7 +40,7 @@ public class MainGame : MonoBehaviour
             //Choice1Button.SetActive(true);
             choice2.text = sequence.Choice2;
         }
-        ImageCharacter2.sprite = sequence.SpriteCharacter;
+        ImageCharacter2.sprite = sequence.SpriteCharacter2;
     }
 
     void Start()
@@ -49,5 +53,6 @@ public class MainGame : MonoBehaviour
         _sequenceNumber++;
         UpdateDialogSequence(Dialogs[_sequenceNumber]);
 
+        FindObjectOfType<AudioManager>().Play("NextDialog");
     }
 }
