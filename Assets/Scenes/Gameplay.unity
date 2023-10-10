@@ -4044,7 +4044,7 @@ MonoBehaviour:
     States flight from New York to Los Angeles. Now please listen carefully to the
     safety instrustions." (0)'
   TextNameCharacter: David Jones
-  SpriteCharacter: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 0}
   Choice1: 
