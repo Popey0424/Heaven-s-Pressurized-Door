@@ -6,6 +6,7 @@ using TMPro;
 using System;
 
 
+
 public class MainGame : MonoBehaviour
 {
  
@@ -18,17 +19,19 @@ public class MainGame : MonoBehaviour
     public TMP_Text choice2;
     public Image ImageCharacter2;
     [SerializeField] private Button Choice1Button;
+    
 
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
 
+    private int index;
+
 
     int _sequenceNumber;
-
     void UpdateDialogSequence(  DialogSequence sequence )
     {
-
+        
         TextDialog.text = sequence.TextDialog;
         TextCharacterName.text = sequence.TextNameCharacter;
         ImageCharacter.sprite = sequence.SpriteCharacter;
@@ -63,6 +66,24 @@ public class MainGame : MonoBehaviour
     void Start()
     {
         UpdateDialogSequence(Dialogs[0]);
+       
+        textComponent.text = string.Empty;
+        StartDialogue();
+    }
+
+    void StartDialogue()
+    {
+        index = 0;
+        StartCoroutine(TypeLine());
+    }
+
+    IEnumerator TypeLine()
+    {
+        foreach (char c in lines[index].ToCharArray())
+        {
+            textComponent.text += c;
+            yield return new WaitForSeconds(textSpeed);
+        }
     }
 
     public void OnClickNextDialog()
