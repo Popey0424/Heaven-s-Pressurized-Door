@@ -784,7 +784,15 @@ MonoBehaviour:
   - {fileID: 618594665}
   - {fileID: 593117523}
   - {fileID: 792661462}
-  - {fileID: 510983709}
+  - {fileID: 1335515878}
+  - {fileID: 1628520058}
+  - {fileID: 1341587375}
+  - {fileID: 1023283824}
+  - {fileID: 326823051}
+  - {fileID: 85121078}
+  - {fileID: 2130177436}
+  - {fileID: 106250193}
+  - {fileID: 1625191088}
   spriteBackground: {fileID: 196838762}
   choice1: {fileID: 66301456}
   choice2: {fileID: 1780505993}
@@ -3993,6 +4001,7 @@ Transform:
   - {fileID: 85121077}
   - {fileID: 2130177435}
   - {fileID: 106250192}
+  - {fileID: 1625191087}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4426,6 +4435,57 @@ MonoBehaviour:
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
   Choice1: Dialog12
+  Choice2: 
+--- !u!1 &1625191086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1625191087}
+  - component: {fileID: 1625191088}
+  m_Layer: 0
+  m_Name: Dialog33
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1625191087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625191086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1431248216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1625191088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625191086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: No, we don't. We're in a aircraft, not a tea party !
+  TextNameCharacter: Bonnie
+  SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 0}
+  SpriteCharacter2: {fileID: 0}
+  Choice1: 
   Choice2: 
 --- !u!1 &1628520056
 GameObject:
