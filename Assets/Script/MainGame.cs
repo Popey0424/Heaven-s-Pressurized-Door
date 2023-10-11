@@ -37,6 +37,10 @@ public class MainGame : MonoBehaviour
         {
             ImageCharacter.color = new Color(1, 1, 1, 0);
         }
+        else
+        {
+            ImageCharacter.color = new Color(1, 1, 1, 1);
+        }
         spriteBackground.sprite = sequence.SpriteBackground;
         
         

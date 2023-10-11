@@ -794,7 +794,7 @@ MonoBehaviour:
     In case of a drop in the cabin pressure, oxygen masks will drop down in front
     of you. You will find these safety instructions in the seat pocket facing you. '
   TextNameCharacter: Player
-  SpriteCharacter: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
   SpriteBackground: {fileID: 21300000, guid: faaec806a0f7f88469bf481873b40d02, type: 3}
   SpriteCharacter2: {fileID: 0}
   Choice1: 
