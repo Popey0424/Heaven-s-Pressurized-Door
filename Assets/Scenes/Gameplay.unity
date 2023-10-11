@@ -505,6 +505,57 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   Choice1: 
   Choice2: 
+--- !u!1 &85121076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 85121077}
+  - component: {fileID: 85121078}
+  m_Layer: 0
+  m_Name: Dialog30
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &85121077
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85121076}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1431248216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &85121078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85121076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: Oh no !! No more drinks for the pilot except water !
+  TextNameCharacter: Bonnie
+  SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 0}
+  SpriteCharacter2: {fileID: 0}
+  Choice1: 
+  Choice2: 
 --- !u!1 &85415978
 GameObject:
   m_ObjectHideFlags: 0
@@ -602,6 +653,58 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: No worries, it's my job after all !
   TextNameCharacter: Bonnie
+  SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 0}
+  SpriteCharacter2: {fileID: 0}
+  Choice1: 
+  Choice2: 
+--- !u!1 &106250191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 106250192}
+  - component: {fileID: 106250193}
+  m_Layer: 0
+  m_Name: Dialog32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &106250192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106250191}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1431248216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &106250193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106250191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: So, everyone is reassured but they are asking for snacks with their
+    champagne. What do I do ?
+  TextNameCharacter: Robert
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
@@ -1053,6 +1156,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 252091013}
   m_CullTransparentMesh: 1
+--- !u!1 &326823049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 326823050}
+  - component: {fileID: 326823051}
+  m_Layer: 0
+  m_Name: Dialog29
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &326823050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326823049}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1431248216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &326823051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326823049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: In about 20 minutes dear ! Do you mind bringing me a little something
+    to drink ?
+  TextNameCharacter: Sister Erika
+  SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 0}
+  SpriteCharacter2: {fileID: 0}
+  Choice1: 
+  Choice2: 
 --- !u!1 &370527961
 GameObject:
   m_ObjectHideFlags: 0
@@ -1760,7 +1915,7 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: DialogJSP
+  Choice1: Dialog32
   Choice2: Dialog20
 --- !u!1 &593117521
 GameObject:
@@ -2437,7 +2592,7 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: DialogJSP
+  Choice1: Dialog31
   Choice2: Dialog18
 --- !u!1 &792661460
 GameObject:
@@ -2791,6 +2946,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 851488786}
   m_CullTransparentMesh: 1
+--- !u!1 &1023283822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1023283823}
+  - component: {fileID: 1023283824}
+  m_Layer: 0
+  m_Name: Dialog28
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1023283823
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023283822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1431248216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1023283824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023283822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: Are we landing soon Sister ?
+  TextNameCharacter: Bonnie
+  SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 0}
+  SpriteCharacter2: {fileID: 0}
+  Choice1: 
+  Choice2: 
 --- !u!1 &1043240000
 GameObject:
   m_ObjectHideFlags: 0
@@ -3782,6 +3988,11 @@ Transform:
   - {fileID: 1335515877}
   - {fileID: 1628520057}
   - {fileID: 1341587374}
+  - {fileID: 1023283823}
+  - {fileID: 326823050}
+  - {fileID: 85121077}
+  - {fileID: 2130177435}
+  - {fileID: 106250192}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5596,6 +5807,59 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: Hi everyone, don't worry, we have found a great backup pilot, so, we
     hopefully won't die today.
+  TextNameCharacter: Bonnie
+  SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 0}
+  SpriteCharacter2: {fileID: 0}
+  Choice1: 
+  Choice2: 
+--- !u!1 &2130177434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2130177435}
+  - component: {fileID: 2130177436}
+  m_Layer: 0
+  m_Name: Dialog31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2130177435
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130177434}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1431248216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2130177436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130177434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: Morning everyone ! We hope you are all enjoying your flight. We will
+    continue our route to Los Angeles with no inconvenience and thank you again for
+    choosing our company.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
