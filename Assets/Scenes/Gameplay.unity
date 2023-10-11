@@ -793,8 +793,8 @@ MonoBehaviour:
     you to the nearest exit door. The life jackets are located underneath each seat.
     In case of a drop in the cabin pressure, oxygen masks will drop down in front
     of you. You will find these safety instructions in the seat pocket facing you. '
-  TextNameCharacter: Player
-  SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
+  TextNameCharacter: David Jones
+  SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 21300000, guid: faaec806a0f7f88469bf481873b40d02, type: 3}
   SpriteCharacter2: {fileID: 0}
   Choice1: 
@@ -2599,7 +2599,7 @@ MonoBehaviour:
     this morning.turn off during take off, landing and until we arrived at a parking
     stand. When the seatbelt sign is on, fasten your seatbelt and your little ones
     too securely until the end of the sign.
-  TextNameCharacter: Player
+  TextNameCharacter: David Jones
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 21300000, guid: faaec806a0f7f88469bf481873b40d02, type: 3}
   SpriteCharacter2: {fileID: 0}
@@ -3535,7 +3535,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: '"Me, me, I flew a plane once !"'
   TextNameCharacter: Sister Erika
-  SpriteCharacter: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: 035881cec74723e488d7b7f48c9c2b4c, type: 3}
   SpriteBackground: {fileID: 21300000, guid: d490e68cde7a0204fbe9d37279624cb6, type: 3}
   SpriteCharacter2: {fileID: 0}
   Choice1: 
