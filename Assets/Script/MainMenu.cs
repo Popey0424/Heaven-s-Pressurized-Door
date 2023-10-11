@@ -11,6 +11,7 @@ public class MainMenu : MonoBehaviour
 {
     [SerializeField] private Image ImageFade;
     [SerializeField] private GameObject MenuOptions;
+    [SerializeField] private GameObject CreditsMenu;
     
 
     public void OnClickPlay()
@@ -31,10 +32,15 @@ public class MainMenu : MonoBehaviour
     public void OnClickExit()
     {
         MenuOptions.SetActive(false);
+        CreditsMenu.SetActive(false);
     }
 
+    public void OnClickCredits()
+    {
+        CreditsMenu.SetActive(true);
+    }
     public void OnClickQuit()
     {
-        
+        Application.Quit();
     }
 }

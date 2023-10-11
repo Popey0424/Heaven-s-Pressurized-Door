@@ -666,8 +666,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -566, y: -85.88901}
-  m_SizeDelta: {x: -1512.3049, y: -171.77863}
+  m_AnchoredPosition: {x: -528.77954, y: -85.88904}
+  m_SizeDelta: {x: -1387.3, y: -171.7786}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &196838761
 GameObject:
@@ -2093,7 +2093,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831993492}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.015888074, w: 0.9998738}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2101,11 +2101,11 @@ RectTransform:
   - {fileID: 2063867032}
   m_Father: {fileID: 1367790788}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.821}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 369.44, y: -304}
-  m_SizeDelta: {x: -1055.4473, y: -776.45}
+  m_AnchoredPosition: {x: 375.55, y: -313}
+  m_SizeDelta: {x: -1176.2866, y: -942.6664}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &831993495
 MonoBehaviour:
@@ -4094,7 +4094,7 @@ MonoBehaviour:
   TextDialog: '"Good morning Ladies and gentlemans, My name is David Jones, I''ll
     be your pilot today and my crew and I are welcomed to have you on this Trans
     States flight from New York to Los Angeles. Now please listen carefully to the
-    safety instrustions." (0)'
+    safety instrustions." '
   TextNameCharacter: David Jones
   SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -4253,18 +4253,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1914705086}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.016773496, w: 0.99985933}
   m_LocalPosition: {x: 0, y: 0, z: 3.808602}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1261560043}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.922}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 400.6361, y: -203.04555}
-  m_SizeDelta: {x: 746.5719, y: 149.3694}
+  m_AnchoredPosition: {x: 401.07263, y: -212.17487}
+  m_SizeDelta: {x: 746.5719, y: 117.3098}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1914705088
 MonoBehaviour:
@@ -4288,15 +4288,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: coucou je suis ton texte
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bb034a03173927348bb7e24d476af1d3, type: 2}
+  m_sharedMaterial: {fileID: -5192002093406421768, guid: bb034a03173927348bb7e24d476af1d3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
     rgba: 4280953450
-  m_fontColor: {r: 0.41509432, g: 0.16642933, b: 0.16642933, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4313,8 +4313,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4388,18 +4388,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2063867031}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.017949164, w: 0.9998389}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 831993493}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 2.057}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.8617, y: -0.4993}
-  m_SizeDelta: {x: 727.7237, y: 238.9987}
+  m_AnchoredPosition: {x: -0.0085, y: -7.1996}
+  m_SizeDelta: {x: 716.0887, y: 110.1476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2063867033
 MonoBehaviour:
@@ -4448,8 +4448,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
