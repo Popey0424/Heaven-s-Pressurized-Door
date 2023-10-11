@@ -794,8 +794,8 @@ MonoBehaviour:
     In case of a drop in the cabin pressure, oxygen masks will drop down in front
     of you. You will find these safety instructions in the seat pocket facing you. '
   TextNameCharacter: Player
-  SpriteCharacter: {fileID: 21300000, guid: dc9e7489c08fc0d42b768794f8a9b7ef, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: faaec806a0f7f88469bf481873b40d02, type: 3}
   SpriteCharacter2: {fileID: 0}
   Choice1: 
   Choice2: 
@@ -2546,8 +2546,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: Oh my God, we are doomed. What have we done ??!!
   TextNameCharacter: Robert
-  SpriteCharacter: {fileID: 21300000, guid: 1c2da15697a9f534b9ff3d33483d4934, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: 6db5e4ef1fd626b48b7056a687dc5749, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: d490e68cde7a0204fbe9d37279624cb6, type: 3}
   SpriteCharacter2: {fileID: 0}
   Choice1: 
   Choice2: 
@@ -2600,8 +2600,8 @@ MonoBehaviour:
     stand. When the seatbelt sign is on, fasten your seatbelt and your little ones
     too securely until the end of the sign.
   TextNameCharacter: Player
-  SpriteCharacter: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: c3160c7c8dd1eb544b41f7d5f9ebb181, type: 3}
+  SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: faaec806a0f7f88469bf481873b40d02, type: 3}
   SpriteCharacter2: {fileID: 0}
   Choice1: 
   Choice2: 
@@ -4096,8 +4096,8 @@ MonoBehaviour:
     States flight from New York to Los Angeles. Now please listen carefully to the
     safety instrustions." '
   TextNameCharacter: David Jones
-  SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: faaec806a0f7f88469bf481873b40d02, type: 3}
   SpriteCharacter2: {fileID: 0}
   Choice1: 
   Choice2: 
