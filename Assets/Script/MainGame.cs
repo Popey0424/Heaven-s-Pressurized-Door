@@ -31,17 +31,17 @@ public class MainGame : MonoBehaviour
     int _sequenceNumber;
     void UpdateDialogSequence(  DialogSequence sequence )
     {
-        StartCoroutine(TypeLine(sequence.TextDialog));
+        //StartCoroutine(TypeLine(sequence.TextDialog));
         //TextDialog.text = sequence.TextDialog;
         TextCharacterName.text = sequence.TextNameCharacter;
         ImageCharacter.sprite = sequence.SpriteCharacter;
        
-    IEnumerator TypeLine(string sequenceTextDialog)
+   // IEnumerator TypeLine(string sequenceTextDialog)
     {
-        foreach (char c in lines[index].ToCharArray())
+       // foreach (char c in lines[index].ToCharArray())
         {
-            textComponent.text += c;
-            yield return new WaitForSeconds(textSpeed);
+          //  textComponent.text += c;
+          //  yield return new WaitForSeconds(textSpeed);
         }
     }
 
@@ -72,25 +72,18 @@ public class MainGame : MonoBehaviour
         }
     }
 
-    IEnumerator TypeLine()
-    {
-        foreach (char c in lines[index].ToCharArray())
-        {
-            textComponent.text += c;
-            yield return new WaitForSeconds(textSpeed);
-        }
-    }
+    
     void Start()
     {
         UpdateDialogSequence(Dialogs[0]);
        
-        textComponent.text = string.Empty;
-        StartDialogue();
+     //   textComponent.text = string.Empty;
+       // StartDialogue();
     }
 
     void StartDialogue()
     {
-        StartCoroutine(TypeLine());
+      //  StartCoroutine(TypeLine());
     }
 
    
