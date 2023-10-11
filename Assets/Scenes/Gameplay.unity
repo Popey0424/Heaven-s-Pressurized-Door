@@ -565,7 +565,7 @@ MonoBehaviour:
   - {fileID: 734831438}
   - {fileID: 2115090296}
   - {fileID: 85415980}
-  - {fileID: 0}
+  - {fileID: 1612611176}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -3055,6 +3055,7 @@ Transform:
   - {fileID: 734831437}
   - {fileID: 2115090295}
   - {fileID: 85415979}
+  - {fileID: 1612611175}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3437,6 +3438,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1607725858}
   m_CullTransparentMesh: 1
+--- !u!1 &1612611174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1612611175}
+  - component: {fileID: 1612611176}
+  m_Layer: 0
+  m_Name: Dialog11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1612611175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612611174}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 120.74225, y: 136.7706, z: -7.849641}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1431248216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1612611176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612611174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: 
+  TextNameCharacter: 
+  SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 0}
+  SpriteCharacter2: {fileID: 0}
+  Choice1: 
+  Choice2: 
 --- !u!1 &1694434319
 GameObject:
   m_ObjectHideFlags: 0
@@ -3484,7 +3536,7 @@ MonoBehaviour:
   TextDialog: '"Me, me, I flew a plane once !"'
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: d490e68cde7a0204fbe9d37279624cb6, type: 3}
   SpriteCharacter2: {fileID: 0}
   Choice1: 
   Choice2: 

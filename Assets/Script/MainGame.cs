@@ -33,7 +33,7 @@ public class MainGame : MonoBehaviour
         TextCharacterName.text = sequence.TextNameCharacter;
         ImageCharacter.sprite = sequence.SpriteCharacter;
 
-        if (sequence.SpriteCharacter == null)
+         if (sequence.SpriteCharacter == null)
         {
             ImageCharacter.color = new Color(1, 1, 1, 0);
         }
