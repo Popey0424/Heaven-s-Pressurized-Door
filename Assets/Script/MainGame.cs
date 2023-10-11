@@ -123,16 +123,16 @@ public class MainGame : MonoBehaviour
 
         //if (_sequenceNumber < Dialogs.Count)
         //{
-         UpdateDialogSequence(Dialogs[_sequenceNumber]);
+        UpdateDialogSequence(Dialogs[_sequenceNumber]);
         //}
         
         //else
-        {
+       // {
             choiceButton1.gameObject.SetActive(true);
-            choiceButton2.gameObject.SetActive(true);
+           // choiceButton2.gameObject.SetActive(true);
 
             dialog ++;
-        }
+        //}
 
         FindObjectOfType<AudioManager>().Play("NextDialog");
     }

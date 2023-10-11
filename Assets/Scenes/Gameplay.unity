@@ -503,8 +503,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &85121076
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,8 +555,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &85415978
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,8 +607,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &87017133
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,8 +659,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &106250191
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,8 +712,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &177420049
 GameObject:
   m_ObjectHideFlags: 0
@@ -759,7 +764,7 @@ MonoBehaviour:
   TextCharacterName: {fileID: 616178842}
   ImageCharacter: {fileID: 187351036}
   Dialogs:
-  - {fileID: 1855157614}
+  - {fileID: 226682774}
   - {fileID: 1189845919}
   - {fileID: 198090976}
   - {fileID: 1259271140}
@@ -805,10 +810,10 @@ MonoBehaviour:
   - {fileID: 1195696071}
   - {fileID: 1014306221}
   spriteBackground: {fileID: 196838762}
-  choice1: {fileID: 66301456}
-  choice2: {fileID: 1780505993}
   ImageCharacter2: {fileID: 1797465317}
-  Choice1Button: {fileID: 729243050}
+  choiceButton1: {fileID: 0}
+  choiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
   textComponent: {fileID: 0}
   lines:
   - tjdjtjttjtjd
@@ -1031,8 +1036,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 21300000, guid: faaec806a0f7f88469bf481873b40d02, type: 3}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &212429524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1099,6 +1105,61 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!1 &226682772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 226682773}
+  - component: {fileID: 226682774}
+  m_Layer: 0
+  m_Name: Dialog001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &226682773
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226682772}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.4887085, y: 172.87582, z: -8.42599}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1431248216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &226682774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226682772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: Good morning ladies and gentlemans, my name is David Jones, I'll be
+    your pilot today and my crew and I are welcomed to have you on this Trans States
+    flight from New York to Los Angeles. Now please listen carefully to the safety
+    instrustions.
+  TextNameCharacter: David Jones
+  SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 0}
+  SpriteCharacter2: {fileID: 0}
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &252091013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1225,8 +1286,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &370527961
 GameObject:
   m_ObjectHideFlags: 0
@@ -1327,8 +1389,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &398323273
 GameObject:
   m_ObjectHideFlags: 0
@@ -1378,8 +1441,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &404282355
 GameObject:
   m_ObjectHideFlags: 0
@@ -1564,8 +1628,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1708,8 +1773,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: DialogJSP
-  Choice2: Dialog43
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &552495651
 GameObject:
   m_ObjectHideFlags: 0
@@ -2038,8 +2104,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: Dialog32
-  Choice2: Dialog20
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &593117521
 GameObject:
   m_ObjectHideFlags: 0
@@ -2090,8 +2157,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &616178839
 GameObject:
   m_ObjectHideFlags: 0
@@ -2277,8 +2345,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &657337877
 GameObject:
   m_ObjectHideFlags: 0
@@ -2331,8 +2400,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &729243048
 GameObject:
   m_ObjectHideFlags: 0
@@ -2346,7 +2416,7 @@ GameObject:
   - component: {fileID: 729243051}
   - component: {fileID: 729243050}
   m_Layer: 5
-  m_Name: Choice1Button
+  m_Name: ChoiceButton1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2505,8 +2575,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &757837391
 GameObject:
   m_ObjectHideFlags: 0
@@ -2769,8 +2840,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: Dialog31
-  Choice2: Dialog18
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &765985866
 GameObject:
   m_ObjectHideFlags: 0
@@ -2820,8 +2892,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: Dialog39
-  Choice2: Dialog37
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &792661460
 GameObject:
   m_ObjectHideFlags: 0
@@ -2871,8 +2944,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &793158839
 GameObject:
   m_ObjectHideFlags: 0
@@ -2922,8 +2996,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &823809032
 GameObject:
   m_ObjectHideFlags: 0
@@ -2973,8 +3048,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &831993492
 GameObject:
   m_ObjectHideFlags: 0
@@ -3065,12 +3141,12 @@ GameObject:
   - component: {fileID: 851488789}
   - component: {fileID: 851488788}
   m_Layer: 5
-  m_Name: Choice2
+  m_Name: ChoiceButton2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &851488787
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3224,8 +3300,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &1019972467
 GameObject:
   m_ObjectHideFlags: 0
@@ -3276,8 +3353,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &1023283822
 GameObject:
   m_ObjectHideFlags: 0
@@ -3327,8 +3405,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &1040886139
 GameObject:
   m_ObjectHideFlags: 0
@@ -3380,8 +3459,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &1043240000
 GameObject:
   m_ObjectHideFlags: 0
@@ -3642,8 +3722,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 21300000, guid: 6db5e4ef1fd626b48b7056a687dc5749, type: 3}
   SpriteBackground: {fileID: 21300000, guid: d490e68cde7a0204fbe9d37279624cb6, type: 3}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &1189845917
 GameObject:
   m_ObjectHideFlags: 0
@@ -3696,8 +3777,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 21300000, guid: faaec806a0f7f88469bf481873b40d02, type: 3}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &1195696069
 GameObject:
   m_ObjectHideFlags: 0
@@ -3749,8 +3831,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &1205501897
 GameObject:
   m_ObjectHideFlags: 0
@@ -4012,8 +4095,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &1259271138
 GameObject:
   m_ObjectHideFlags: 0
@@ -4064,8 +4148,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &1261560042
 GameObject:
   m_ObjectHideFlags: 0
@@ -4149,8 +4234,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &1341587373
 GameObject:
   m_ObjectHideFlags: 0
@@ -4201,8 +4287,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &1355072383
 GameObject:
   m_ObjectHideFlags: 0
@@ -4253,8 +4340,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &1367790784
 GameObject:
   m_ObjectHideFlags: 0
@@ -4420,8 +4508,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &1431248215
 GameObject:
   m_ObjectHideFlags: 0
@@ -4450,7 +4539,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1855157613}
+  - {fileID: 226682773}
   - {fileID: 1189845918}
   - {fileID: 198090975}
   - {fileID: 1259271139}
@@ -4927,8 +5016,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: Dialog12
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &1625191086
 GameObject:
   m_ObjectHideFlags: 0
@@ -4978,8 +5068,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &1628520056
 GameObject:
   m_ObjectHideFlags: 0
@@ -5030,8 +5121,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &1694434319
 GameObject:
   m_ObjectHideFlags: 0
@@ -5082,8 +5174,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 21300000, guid: 035881cec74723e488d7b7f48c9c2b4c, type: 3}
   SpriteBackground: {fileID: 21300000, guid: d490e68cde7a0204fbe9d37279624cb6, type: 3}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &1735244406
 GameObject:
   m_ObjectHideFlags: 0
@@ -5643,60 +5736,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1797465315}
   m_CullTransparentMesh: 1
---- !u!1 &1855157612
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1855157613}
-  - component: {fileID: 1855157614}
-  m_Layer: 0
-  m_Name: Dialog00
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1855157613
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1855157612}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1431248216}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1855157614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1855157612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TextDialog: Good morning ladies and gentlemans, my name is David Jones, I'll be
-    your pilot today and my crew and I are welcomed to have you on this Trans States
-    flight from New York to Los Angeles. Now please listen carefully to the safety
-    instrustions.
-  TextNameCharacter: David Jones
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 21300000, guid: faaec806a0f7f88469bf481873b40d02, type: 3}
-  SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
 --- !u!1 &1861717167
 GameObject:
   m_ObjectHideFlags: 0
@@ -5822,8 +5861,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: Dialog06
-  Choice2: Dialog08
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &1914705086
 GameObject:
   m_ObjectHideFlags: 0
@@ -6009,8 +6049,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &2051317133
 GameObject:
   m_ObjectHideFlags: 0
@@ -6061,8 +6102,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &2063867031
 GameObject:
   m_ObjectHideFlags: 0
@@ -6248,8 +6290,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &2120929556
 GameObject:
   m_ObjectHideFlags: 0
@@ -6468,8 +6511,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
 --- !u!1 &2130177434
 GameObject:
   m_ObjectHideFlags: 0
@@ -6521,5 +6565,6 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  Choice1: 
-  Choice2: 
+  ChoiceButton1: {fileID: 0}
+  ChoiceButton2: {fileID: 0}
+  ButtonContinuer: {fileID: 0}
