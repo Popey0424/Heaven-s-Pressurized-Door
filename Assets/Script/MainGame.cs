@@ -32,15 +32,28 @@ public class MainGame : MonoBehaviour
         TextDialog.text = sequence.TextDialog;
         TextCharacterName.text = sequence.TextNameCharacter;
         ImageCharacter.sprite = sequence.SpriteCharacter;
+
+        if (sequence.SpriteCharacter == null)
+        {
+            ImageCharacter.color = new Color(1, 1, 1, 0);
+        }
         spriteBackground.sprite = sequence.SpriteBackground;
+        
+        
         bool isChoice = !(String.IsNullOrEmpty(sequence.Choice1) || String.IsNullOrEmpty(sequence.Choice2));
         if (isChoice)
         {
             choice1.text = sequence.Choice1;
-            //Choice1Button.SetActive(true);
+            Choice1Button.SetActive(true);
             choice2.text = sequence.Choice2;
         }
+        
+        
         ImageCharacter2.sprite = sequence.SpriteCharacter2;
+        if (sequence.SpriteCharacter2 == null)
+        {
+            ImageCharacter2.color = new Color(1, 1, 1, 0);
+        }
     }
 
     void Start()
