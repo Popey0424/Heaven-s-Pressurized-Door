@@ -1153,8 +1153,8 @@ MonoBehaviour:
     In case of a drop in the cabin pressure, oxygen masks will drop down in front
     of you. You will find these safety instructions in the seat pocket facing you.
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 21300000, guid: faaec806a0f7f88469bf481873b40d02, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: 7c2cc0bf37812b14fa69ac105748fc30, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: d490e68cde7a0204fbe9d37279624cb6, type: 3}
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
@@ -1275,7 +1275,7 @@ MonoBehaviour:
     instrustions.
   TextNameCharacter: David Jones
   SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: d490e68cde7a0204fbe9d37279624cb6, type: 3}
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
@@ -2850,9 +2850,9 @@ MonoBehaviour:
   TextDialog: So, sister, you have flown a plane before. Have ou kill anybody during
     the landing ?
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: ba2ed8ec4a2e1254c9d046f2c22cd0c1, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
@@ -3271,9 +3271,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: Oh no darling, I am on my way to a casino in Nevada.
   TextNameCharacter: Sister Erika
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: c72dde3c5e46de149adbac02377837e3, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 5852c968c27d6e44190785e8d5a846b5, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
@@ -4206,9 +4206,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: Oh my God, we are doomed. What have we done ??!!
   TextNameCharacter: Robert
-  SpriteCharacter: {fileID: 21300000, guid: 6db5e4ef1fd626b48b7056a687dc5749, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: d490e68cde7a0204fbe9d37279624cb6, type: 3}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: 18dd34c6a1135c640a5cc0116cafd77f, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 6db5e4ef1fd626b48b7056a687dc5749, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
@@ -4261,8 +4261,8 @@ MonoBehaviour:
     stand. When the seatbelt sign is on, fasten your seatbelt and your little ones
     too securely until the end of the sign.
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 21300000, guid: faaec806a0f7f88469bf481873b40d02, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: d490e68cde7a0204fbe9d37279624cb6, type: 3}
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
@@ -4632,8 +4632,8 @@ MonoBehaviour:
   TextDialog: Is there somebody with aviation skills to help us in the cockpit ?
     If so, please step at the head of the plane.
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
@@ -5622,9 +5622,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  HasChoice: 0
-  TextChoice1: 
-  TextChoice2: 
+  HasChoice: 1
+  TextChoice1: Dialog33
+  TextChoice2: Dialog12
 --- !u!1 &1625191086
 GameObject:
   m_ObjectHideFlags: 0
@@ -5776,10 +5776,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: Sister, you are our saviour, may the Lord be with us. I believe He
     sent you to help us today !
-  TextNameCharacter: Sister Erika
-  SpriteCharacter: {fileID: 21300000, guid: 035881cec74723e488d7b7f48c9c2b4c, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: d490e68cde7a0204fbe9d37279624cb6, type: 3}
-  SpriteCharacter2: {fileID: 0}
+  TextNameCharacter: Bonnie
+  SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: ba2ed8ec4a2e1254c9d046f2c22cd0c1, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
@@ -6516,12 +6516,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: Me, me, I flew a plane once !
   TextNameCharacter: Sister Erika
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: c72dde3c5e46de149adbac02377837e3, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 035881cec74723e488d7b7f48c9c2b4c, type: 3}
   HasChoice: 1
-  TextChoice1: 'dialog 10 '
-  TextChoice2: dialog 6
+  TextChoice1: Dialog6
+  TextChoice2: Dialog8
 --- !u!1 &1914705086
 GameObject:
   m_ObjectHideFlags: 0
@@ -7052,7 +7052,7 @@ MonoBehaviour:
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
