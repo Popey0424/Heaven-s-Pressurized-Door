@@ -22,7 +22,7 @@ public class MainGame : MonoBehaviour
 
     public string[] lines;
     public float textSpeed;
-
+    private bool isTextFinish = false;
 
     private int index;
     private int dialog = 0;
@@ -39,17 +39,26 @@ public class MainGame : MonoBehaviour
         choiceButton1.onClick.AddListener(delegate { ClickOnChoiceButton(1); });
         choiceButton2.onClick.AddListener(delegate { ClickOnChoiceButton(2); });
 
-        UpdateDialogSequence(Dialogs[0]);
+        _sequenceNumber = 0;
+        UpdateDialogSequence(Dialogs[_sequenceNumber]);
     }
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
         {
 
             StopAllCoroutines();
             TextDialog.text = Dialogs[_sequenceNumber].TextDialog;
-
+            isTextFinish = true;
+        }
+        if (isTextFinish)
+        {
+            ShowButtonsToContinue(Dialogs[_sequenceNumber]);
+        }
+        if (!isTextFinish)
+        {
+            ButtonContinuer.gameObject.SetActive(false);
         }
     }
     #endregion
@@ -64,25 +73,39 @@ public class MainGame : MonoBehaviour
         choiceButton2.gameObject.SetActive(false);
     }
 
-    IEnumerator TypeLine(string sequenceTextDialog)
+    IEnumerator TypeLine(DialogSequence sequence)
     {
+        isTextFinish = false;
         TextDialog.text = string.Empty;
-        foreach (char c in sequenceTextDialog.ToCharArray())
+        foreach (char c in sequence.TextDialog.ToCharArray())
         {
             TextDialog.text += c;
             yield return new WaitForSeconds(textSpeed);
         }
+        isTextFinish = true;
 
     }
 
-    void UpdateDialogSequence(DialogSequence sequence)
+    private void ShowButtonsToContinue(DialogSequence sequence)
     {
         if (sequence.HasChoice)
         {
             ShowChoices(sequence);
-
         }
-        StartCoroutine(TypeLine(sequence.TextDialog));
+        else
+        {
+            ButtonContinuer.gameObject.SetActive(true);
+        }
+    }
+
+    void UpdateDialogSequence(DialogSequence sequence)
+    {
+        //if (sequence.HasChoice)
+        //{
+        //    ShowChoices(sequence);
+
+        //}
+        StartCoroutine(TypeLine(sequence));
 
         TextCharacterName.text = sequence.TextNameCharacter;
 

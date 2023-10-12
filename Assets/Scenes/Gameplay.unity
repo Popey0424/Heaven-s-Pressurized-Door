@@ -504,9 +504,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 729243050}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &81457019
 GameObject:
   m_ObjectHideFlags: 0
@@ -556,9 +556,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &85121076
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,9 +608,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &85415978
 GameObject:
   m_ObjectHideFlags: 0
@@ -660,9 +660,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &87017133
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,9 +712,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &89658212
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,9 +765,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &106250191
 GameObject:
   m_ObjectHideFlags: 0
@@ -818,9 +818,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &177420049
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,13 +932,12 @@ MonoBehaviour:
   - {fileID: 2049416002}
   spriteBackground: {fileID: 196838762}
   ImageCharacter2: {fileID: 1797465317}
-  choiceButton1: {fileID: 0}
-  choiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
-  textComponent: {fileID: 0}
+  choiceButton1: {fileID: 729243050}
+  choiceButton2: {fileID: 851488788}
+  ButtonContinuer: {fileID: 30047338}
   lines:
   - tjdjtjttjtjd
-  textSpeed: 0.3
+  textSpeed: 0.05
 --- !u!114 &177420054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1157,9 +1156,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 21300000, guid: faaec806a0f7f88469bf481873b40d02, type: 3}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &212429524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1278,9 +1277,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &252091013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1407,9 +1406,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &370527961
 GameObject:
   m_ObjectHideFlags: 0
@@ -1510,9 +1509,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &391848268
 GameObject:
   m_ObjectHideFlags: 0
@@ -1562,9 +1561,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &398323273
 GameObject:
   m_ObjectHideFlags: 0
@@ -1614,9 +1613,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &404282355
 GameObject:
   m_ObjectHideFlags: 0
@@ -1802,9 +1801,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &510983707
 GameObject:
   m_ObjectHideFlags: 0
@@ -1854,9 +1853,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1999,9 +1998,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &552495651
 GameObject:
   m_ObjectHideFlags: 0
@@ -2330,9 +2329,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &593117521
 GameObject:
   m_ObjectHideFlags: 0
@@ -2383,9 +2382,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &616178839
 GameObject:
   m_ObjectHideFlags: 0
@@ -2571,9 +2570,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &657337877
 GameObject:
   m_ObjectHideFlags: 0
@@ -2626,9 +2625,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &703827573
 GameObject:
   m_ObjectHideFlags: 0
@@ -2679,9 +2678,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &729243048
 GameObject:
   m_ObjectHideFlags: 0
@@ -2854,9 +2853,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &757837391
 GameObject:
   m_ObjectHideFlags: 0
@@ -3119,9 +3118,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &765985866
 GameObject:
   m_ObjectHideFlags: 0
@@ -3171,9 +3170,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &792661460
 GameObject:
   m_ObjectHideFlags: 0
@@ -3223,9 +3222,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &793158839
 GameObject:
   m_ObjectHideFlags: 0
@@ -3275,9 +3274,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &823809032
 GameObject:
   m_ObjectHideFlags: 0
@@ -3327,9 +3326,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &831993492
 GameObject:
   m_ObjectHideFlags: 0
@@ -3457,9 +3456,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &851488786
 GameObject:
   m_ObjectHideFlags: 0
@@ -3631,9 +3630,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &926016397
 GameObject:
   m_ObjectHideFlags: 0
@@ -3683,9 +3682,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &964836842
 GameObject:
   m_ObjectHideFlags: 0
@@ -3735,9 +3734,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1014306219
 GameObject:
   m_ObjectHideFlags: 0
@@ -3788,9 +3787,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1019972467
 GameObject:
   m_ObjectHideFlags: 0
@@ -3841,9 +3840,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1023283822
 GameObject:
   m_ObjectHideFlags: 0
@@ -3893,9 +3892,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1040886139
 GameObject:
   m_ObjectHideFlags: 0
@@ -3947,9 +3946,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1043240000
 GameObject:
   m_ObjectHideFlags: 0
@@ -4210,9 +4209,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 21300000, guid: 6db5e4ef1fd626b48b7056a687dc5749, type: 3}
   SpriteBackground: {fileID: 21300000, guid: d490e68cde7a0204fbe9d37279624cb6, type: 3}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1189845917
 GameObject:
   m_ObjectHideFlags: 0
@@ -4265,9 +4264,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 21300000, guid: faaec806a0f7f88469bf481873b40d02, type: 3}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1195696069
 GameObject:
   m_ObjectHideFlags: 0
@@ -4319,9 +4318,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1205501897
 GameObject:
   m_ObjectHideFlags: 0
@@ -4583,9 +4582,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1259271138
 GameObject:
   m_ObjectHideFlags: 0
@@ -4636,9 +4635,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1261560042
 GameObject:
   m_ObjectHideFlags: 0
@@ -4722,9 +4721,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1341587373
 GameObject:
   m_ObjectHideFlags: 0
@@ -4775,9 +4774,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1355072383
 GameObject:
   m_ObjectHideFlags: 0
@@ -4828,9 +4827,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1367790784
 GameObject:
   m_ObjectHideFlags: 0
@@ -4996,9 +4995,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1431248215
 GameObject:
   m_ObjectHideFlags: 0
@@ -5215,9 +5214,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1531470878
 GameObject:
   m_ObjectHideFlags: 0
@@ -5402,9 +5401,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1558857268
 GameObject:
   m_ObjectHideFlags: 0
@@ -5623,9 +5622,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1625191086
 GameObject:
   m_ObjectHideFlags: 0
@@ -5675,9 +5674,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1628520056
 GameObject:
   m_ObjectHideFlags: 0
@@ -5728,9 +5727,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1694434319
 GameObject:
   m_ObjectHideFlags: 0
@@ -5781,9 +5780,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 21300000, guid: 035881cec74723e488d7b7f48c9c2b4c, type: 3}
   SpriteBackground: {fileID: 21300000, guid: d490e68cde7a0204fbe9d37279624cb6, type: 3}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1735244406
 GameObject:
   m_ObjectHideFlags: 0
@@ -5970,9 +5969,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1771935170
 GameObject:
   m_ObjectHideFlags: 0
@@ -6520,9 +6519,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 1
+  TextChoice1: 'je prefere ca '
+  TextChoice2: 'yo '
 --- !u!1 &1914705086
 GameObject:
   m_ObjectHideFlags: 0
@@ -6707,9 +6706,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &1929492980
 GameObject:
   m_ObjectHideFlags: 0
@@ -6760,9 +6759,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &2049416000
 GameObject:
   m_ObjectHideFlags: 0
@@ -6813,9 +6812,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &2051317133
 GameObject:
   m_ObjectHideFlags: 0
@@ -6866,9 +6865,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &2063867031
 GameObject:
   m_ObjectHideFlags: 0
@@ -7054,9 +7053,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &2120929556
 GameObject:
   m_ObjectHideFlags: 0
@@ -7275,9 +7274,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &2130177434
 GameObject:
   m_ObjectHideFlags: 0
@@ -7329,9 +7328,9 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
 --- !u!1 &2145311895
 GameObject:
   m_ObjectHideFlags: 0
@@ -7382,6 +7381,6 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  ChoiceButton1: {fileID: 0}
-  ChoiceButton2: {fileID: 0}
-  ButtonContinuer: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
