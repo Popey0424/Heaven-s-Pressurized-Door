@@ -9,7 +9,7 @@ using System.Linq;
 
 public class MainGame : MonoBehaviour
 {
- 
+
     public TMP_Text TextDialog;
     public TMP_Text TextCharacterName;
     public Image ImageCharacter;
@@ -20,121 +20,127 @@ public class MainGame : MonoBehaviour
     public Button choiceButton2;
     public Button ButtonContinuer;
 
-
-
-    public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
-    
+
 
     private int index;
     private int dialog = 0;
 
     int _sequenceNumber;
-    void UpdateDialogSequence(  DialogSequence sequence )
-    {
-        StartCoroutine(TypeLine(sequence.TextDialog));
-        TextDialog.text = sequence.TextDialog;
-        TextCharacterName.text = sequence.TextNameCharacter;
-        ImageCharacter.sprite = sequence.SpriteCharacter;
-        
-       
-    IEnumerator TypeLine(string sequenceTextDialog)
-    {
-        foreach (char c in lines[index].ToCharArray())
-        {
-            textComponent.text += c;
-            yield return new WaitForSeconds(textSpeed);
-        }
-    }
 
-        if (sequence.SpriteCharacter == null)
-        {
-            ImageCharacter.color = new Color(1, 1, 1, 0);
-        }
-        else
-        {
-            ImageCharacter.color = new Color(1, 1, 1, 1);
-        }
-        spriteBackground.sprite = sequence.SpriteBackground;
-        
-        
-        //bool isChoice = !(String.IsNullOrEmpty(sequence.ChoiceButton1.ToString()) || String.IsNullOrEmpty(sequence.ChoiceButton2.ToString()));
-        //if (isChoice)
-        //{
-        //    ChoiceButton1 = sequence.Choice1;
-        //    ChoiceButton1.gameObject.SetActive(true);
-        //    ChoiceButton2.Button = sequence.Choice2;
-        //}
-        
-        
-        ImageCharacter2.sprite = sequence.SpriteCharacter2;
-        if (sequence.SpriteCharacter2 == null)
-        {
-            ImageCharacter2.color = new Color(1, 1, 1, 0);
-        }
-    }
-
-
-
+    #region BuildIn
     void Start()
     {
         choiceButton1.gameObject.SetActive(false);
         choiceButton2.gameObject.SetActive(false);
+        ButtonContinuer.gameObject.SetActive(false);
 
-        choiceButton1.onClick.AddListener(ChoiceButton1);
-        choiceButton2.onClick.AddListener(ChoiceButton2);
+        choiceButton1.onClick.AddListener(delegate { ClickOnChoiceButton(1); });
+        choiceButton2.onClick.AddListener(delegate { ClickOnChoiceButton(2); });
 
         UpdateDialogSequence(Dialogs[0]);
-       
-        textComponent.text = string.Empty;
-        StartDialogue();
-
-        
-        
     }
 
-    public void ChoiceButton1()
+    void Update()
     {
-        dialog++;
+        if (Input.GetMouseButtonDown(0))
+        {
+
+            StopAllCoroutines();
+            TextDialog.text = Dialogs[_sequenceNumber].TextDialog;
+
+        }
+    }
+    #endregion
+
+
+    #region MyMethods
+
+    public void ClickOnChoiceButton(int number)
+    {
+        dialog += number;
         choiceButton1.gameObject.SetActive(false);
-    }
-
-    public void ChoiceButton2()
-    {
-        dialog += 2;
         choiceButton2.gameObject.SetActive(false);
     }
 
-    
-    void StartDialogue()
+    IEnumerator TypeLine(string sequenceTextDialog)
     {
-       
+        TextDialog.text = string.Empty;
+        foreach (char c in sequenceTextDialog.ToCharArray())
+        {
+            TextDialog.text += c;
+            yield return new WaitForSeconds(textSpeed);
+        }
+
+    }
+
+    void UpdateDialogSequence(DialogSequence sequence)
+    {
+        if (sequence.HasChoice)
+        {
+            ShowChoices(sequence);
+
+        }
+        StartCoroutine(TypeLine(sequence.TextDialog));
+
+        TextCharacterName.text = sequence.TextNameCharacter;
+
+        spriteBackground.sprite = sequence.SpriteBackground;
+
+        UpdateCharacter(ImageCharacter, sequence.SpriteCharacter);
+        UpdateCharacter(ImageCharacter2, sequence.SpriteCharacter2);
+
+
+
+    }
+
+    private void UpdateCharacter(Image charImage, Sprite newSprite)
+    {
+        if (newSprite == null)
+        {
+            charImage.color = new Color(1, 1, 1, 0);
+        }
+        else
+        {
+            charImage.color = new Color(1, 1, 1, 1);
+            if (charImage.sprite != newSprite)
+            {
+                charImage.sprite = newSprite;
+            }
+        }
     }
 
     public void OnClickNextDialog()
     {
         _sequenceNumber++;
+        if (_sequenceNumber >= Dialogs.Length)
+        {
+            ButtonContinuer.gameObject.SetActive(false);
+        }
 
-       // if (_sequenceNumber >= Dialogs.Count)
-        //{
-         //   ButtonContinuer.gameObject.SetActive(false);
-       // }
+        if (_sequenceNumber < Dialogs.Length)
+        {
+            UpdateDialogSequence(Dialogs[_sequenceNumber]);
+        }
 
-        //if (_sequenceNumber < Dialogs.Count)
-        //{
-        UpdateDialogSequence(Dialogs[_sequenceNumber]);
-        //}
-        
-        //else
-       // {
-            choiceButton1.gameObject.SetActive(true);
-           // choiceButton2.gameObject.SetActive(true);
+        else
+        {
 
-            dialog ++;
-        //}
+            dialog++;
+        }
 
         FindObjectOfType<AudioManager>().Play("NextDialog");
+
     }
+
+    private void ShowChoices(DialogSequence sequence)
+    {
+        choiceButton1.gameObject.SetActive(true);
+        choiceButton2.gameObject.SetActive(true);
+        choiceButton1.GetComponentInChildren<TMP_Text>().text = sequence.TextChoice1;
+        choiceButton2.GetComponentInChildren<TMP_Text>().text = sequence.TextChoice2;
+    }
+    #endregion
 }
 

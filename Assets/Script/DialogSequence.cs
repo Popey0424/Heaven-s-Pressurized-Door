@@ -11,9 +11,9 @@ public class DialogSequence : MonoBehaviour
     public Sprite SpriteCharacter;
     public Sprite SpriteBackground;
     public Sprite SpriteCharacter2;
-    public Button ChoiceButton1;
-    public Button ChoiceButton2;
-    public Button ButtonContinuer;
+    public bool HasChoice;
+    public string TextChoice1;
+    public string TextChoice2;
 }
 
 
