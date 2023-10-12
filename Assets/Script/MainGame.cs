@@ -17,8 +17,11 @@ public class MainGame : MonoBehaviour
     public Image spriteBackground;
     public Image ImageCharacter2;
     public Button choiceButton1;
+    
     public Button choiceButton2;
+
     public Button ButtonContinuer;
+    
 
     public string[] lines;
     public float textSpeed;
@@ -47,16 +50,18 @@ public class MainGame : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
         {
-            if (!isTextFinish)
-            {
-                ButtonContinuer.gameObject.SetActive(false);
-            }
+            
 
             StopAllCoroutines();
             TextDialog.text = Dialogs[_sequenceNumber].TextDialog;
             isTextFinish = true;
         }
-        
+
+        if (!isTextFinish)
+        {
+            ButtonContinuer.gameObject.SetActive(false);
+        }
+
         if (isTextFinish)
         {
             ShowButtonsToContinue(Dialogs[_sequenceNumber]);
@@ -75,12 +80,14 @@ public class MainGame : MonoBehaviour
         {
             case 1:
 
-                _sequenceNumber = 10;
+                _sequenceNumber = 8;
                 break;
             case 2:
 
                 _sequenceNumber = 6;
-                break; 
+                break;
+           
+            
         }
 
         choiceButton1.gameObject.SetActive(false);

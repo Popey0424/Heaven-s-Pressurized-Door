@@ -13,7 +13,9 @@ public class DialogSequence : MonoBehaviour
     public Sprite SpriteCharacter2;
     public bool HasChoice;
     public string TextChoice1;
+    public int choice1;
     public string TextChoice2;
+    public int choice2;
 }
 
 
