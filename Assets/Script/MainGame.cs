@@ -70,7 +70,19 @@ public class MainGame : MonoBehaviour
 
     public void ClickOnChoiceButton(int number)
     {
-        dialog += number;
+        dialog = number;
+        switch (dialog)
+        {
+            case 1:
+
+                _sequenceNumber = 10;
+                break;
+            case 2:
+
+                _sequenceNumber = 6;
+                break; 
+        }
+
         choiceButton1.gameObject.SetActive(false);
         choiceButton2.gameObject.SetActive(false);
     }
