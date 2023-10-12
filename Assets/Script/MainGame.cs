@@ -81,10 +81,12 @@ public class MainGame : MonoBehaviour
             case 1:
 
                 _sequenceNumber = 8;
+                UpdateDialogSequence(Dialogs[_sequenceNumber]);
                 break;
             case 2:
 
                 _sequenceNumber = 6;
+                UpdateDialogSequence(Dialogs[_sequenceNumber]);
                 break;
            
             
