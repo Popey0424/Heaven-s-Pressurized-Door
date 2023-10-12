@@ -6520,8 +6520,8 @@ MonoBehaviour:
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
   HasChoice: 1
-  TextChoice1: 'je prefere ca '
-  TextChoice2: 'yo '
+  TextChoice1: 'dialog 10 '
+  TextChoice2: dialog 6
 --- !u!1 &1914705086
 GameObject:
   m_ObjectHideFlags: 0
