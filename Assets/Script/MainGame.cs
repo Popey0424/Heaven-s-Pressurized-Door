@@ -47,19 +47,21 @@ public class MainGame : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
         {
+            if (!isTextFinish)
+            {
+                ButtonContinuer.gameObject.SetActive(false);
+            }
 
             StopAllCoroutines();
             TextDialog.text = Dialogs[_sequenceNumber].TextDialog;
             isTextFinish = true;
         }
+        
         if (isTextFinish)
         {
             ShowButtonsToContinue(Dialogs[_sequenceNumber]);
         }
-        if (!isTextFinish)
-        {
-            ButtonContinuer.gameObject.SetActive(false);
-        }
+        
     }
     #endregion
 
