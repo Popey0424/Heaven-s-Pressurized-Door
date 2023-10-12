@@ -377,7 +377,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: doihdhuqzdhuqzhudiza
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -506,9 +506,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &81457019
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,9 +560,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &85121076
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,9 +614,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &85415978
 GameObject:
   m_ObjectHideFlags: 0
@@ -668,9 +668,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &87017133
 GameObject:
   m_ObjectHideFlags: 0
@@ -722,9 +722,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &89658212
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,9 +777,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &106250191
 GameObject:
   m_ObjectHideFlags: 0
@@ -832,9 +832,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &177420049
 GameObject:
   m_ObjectHideFlags: 0
@@ -1037,10 +1037,10 @@ RectTransform:
   m_Father: {fileID: 1367790788}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -546.1279, y: -85.88904}
-  m_SizeDelta: {x: -1421.9968, y: -171.7786}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -486.56006, y: -59.866394}
+  m_SizeDelta: {x: 617.1, y: 960.2667}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &196838761
 GameObject:
@@ -1172,9 +1172,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &212429524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1295,9 +1295,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &252091013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1426,9 +1426,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &370527961
 GameObject:
   m_ObjectHideFlags: 0
@@ -1531,9 +1531,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &391848268
 GameObject:
   m_ObjectHideFlags: 0
@@ -1585,9 +1585,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &398323273
 GameObject:
   m_ObjectHideFlags: 0
@@ -1639,144 +1639,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
---- !u!1 &404282355
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 404282356}
-  - component: {fileID: 404282358}
-  - component: {fileID: 404282357}
-  m_Layer: 5
-  m_Name: TextTitle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &404282356
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 404282355}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 3.808602}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1558857269}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 645, y: 260}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &404282357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 404282355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4279637530
-  m_fontColor: {r: 0.103773594, g: 0.08664116, b: 0.08664116, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &404282358
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 404282355}
-  m_CullTransparentMesh: 1
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &506641863
 GameObject:
   m_ObjectHideFlags: 0
@@ -1829,9 +1694,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &510983707
 GameObject:
   m_ObjectHideFlags: 0
@@ -1883,9 +1748,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2030,9 +1895,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &552495651
 GameObject:
   m_ObjectHideFlags: 0
@@ -2363,9 +2228,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &593117521
 GameObject:
   m_ObjectHideFlags: 0
@@ -2418,9 +2283,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &616178839
 GameObject:
   m_ObjectHideFlags: 0
@@ -2489,15 +2354,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bb034a03173927348bb7e24d476af1d3, type: 2}
+  m_sharedMaterial: {fileID: -5192002093406421768, guid: bb034a03173927348bb7e24d476af1d3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278256127
-  m_fontColor: {r: 1, g: 0.0047169924, b: 0.0047169924, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2608,9 +2473,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &657337877
 GameObject:
   m_ObjectHideFlags: 0
@@ -2665,9 +2530,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &703827573
 GameObject:
   m_ObjectHideFlags: 0
@@ -2720,9 +2585,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &729243048
 GameObject:
   m_ObjectHideFlags: 0
@@ -2897,9 +2762,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 21300000, guid: ba2ed8ec4a2e1254c9d046f2c22cd0c1, type: 3}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &757837391
 GameObject:
   m_ObjectHideFlags: 0
@@ -3164,9 +3029,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &765985866
 GameObject:
   m_ObjectHideFlags: 0
@@ -3218,9 +3083,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &792661460
 GameObject:
   m_ObjectHideFlags: 0
@@ -3272,9 +3137,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &793158839
 GameObject:
   m_ObjectHideFlags: 0
@@ -3326,9 +3191,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 21300000, guid: 5852c968c27d6e44190785e8d5a846b5, type: 3}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &823809032
 GameObject:
   m_ObjectHideFlags: 0
@@ -3353,7 +3218,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 823809032}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3380,9 +3245,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &831993492
 GameObject:
   m_ObjectHideFlags: 0
@@ -3512,9 +3377,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &851488786
 GameObject:
   m_ObjectHideFlags: 0
@@ -3688,9 +3553,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &926016397
 GameObject:
   m_ObjectHideFlags: 0
@@ -3742,9 +3607,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &964836842
 GameObject:
   m_ObjectHideFlags: 0
@@ -3796,9 +3661,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1014306219
 GameObject:
   m_ObjectHideFlags: 0
@@ -3851,9 +3716,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1019972467
 GameObject:
   m_ObjectHideFlags: 0
@@ -3906,9 +3771,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1023283822
 GameObject:
   m_ObjectHideFlags: 0
@@ -3960,9 +3825,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1040886139
 GameObject:
   m_ObjectHideFlags: 0
@@ -4016,9 +3881,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1043240000
 GameObject:
   m_ObjectHideFlags: 0
@@ -4281,9 +4146,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 21300000, guid: 6db5e4ef1fd626b48b7056a687dc5749, type: 3}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1189845917
 GameObject:
   m_ObjectHideFlags: 0
@@ -4338,9 +4203,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1195696069
 GameObject:
   m_ObjectHideFlags: 0
@@ -4394,9 +4259,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1205501897
 GameObject:
   m_ObjectHideFlags: 0
@@ -4660,9 +4525,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1259271138
 GameObject:
   m_ObjectHideFlags: 0
@@ -4715,9 +4580,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1261560042
 GameObject:
   m_ObjectHideFlags: 0
@@ -4803,9 +4668,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1341587373
 GameObject:
   m_ObjectHideFlags: 0
@@ -4858,9 +4723,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1355072383
 GameObject:
   m_ObjectHideFlags: 0
@@ -4913,9 +4778,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1367790784
 GameObject:
   m_ObjectHideFlags: 0
@@ -5015,7 +4880,6 @@ RectTransform:
   - {fileID: 187351038}
   - {fileID: 30047337}
   - {fileID: 757837392}
-  - {fileID: 1558857269}
   - {fileID: 1261560043}
   - {fileID: 552495654}
   - {fileID: 616178840}
@@ -5083,9 +4947,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1431248215
 GameObject:
   m_ObjectHideFlags: 0
@@ -5304,9 +5168,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1531470878
 GameObject:
   m_ObjectHideFlags: 0
@@ -5493,42 +5357,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
---- !u!1 &1558857268
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1558857269}
-  m_Layer: 0
-  m_Name: Title
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1558857269
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1558857268}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25.60608, y: -101.978, z: -3.808602}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1794095531}
-  - {fileID: 404282356}
-  m_Father: {fileID: 1367790788}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1607725858
 GameObject:
   m_ObjectHideFlags: 0
@@ -5587,7 +5418,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Continuer
+  m_text: 'Next
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb034a03173927348bb7e24d476af1d3, type: 2}
   m_sharedMaterial: {fileID: -5192002093406421768, guid: bb034a03173927348bb7e24d476af1d3, type: 2}
@@ -5715,10 +5548,10 @@ MonoBehaviour:
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
   HasChoice: 1
-  TextChoice1: Dialog33
-  choice1: 0
-  TextChoice2: Dialog12
-  choice2: 0
+  TextChoice1: 
+  TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1625191086
 GameObject:
   m_ObjectHideFlags: 0
@@ -5770,9 +5603,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1628520056
 GameObject:
   m_ObjectHideFlags: 0
@@ -5825,9 +5658,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1694434319
 GameObject:
   m_ObjectHideFlags: 0
@@ -5880,9 +5713,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 21300000, guid: ba2ed8ec4a2e1254c9d046f2c22cd0c1, type: 3}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1735244406
 GameObject:
   m_ObjectHideFlags: 0
@@ -6071,9 +5904,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1771935170
 GameObject:
   m_ObjectHideFlags: 0
@@ -6267,7 +6100,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6344,82 +6177,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1780505991}
   m_CullTransparentMesh: 1
---- !u!1 &1794095530
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1794095531}
-  - component: {fileID: 1794095533}
-  - component: {fileID: 1794095532}
-  m_Layer: 5
-  m_Name: BackgroundTitle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1794095531
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1794095530}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 3.808602}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1558857269}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 654, y: 262}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1794095532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1794095530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.754717, g: 0.33107865, b: 0.33107865, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1794095533
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1794095530}
-  m_CullTransparentMesh: 1
 --- !u!1 &1797465315
 GameObject:
   m_ObjectHideFlags: 0
@@ -6455,8 +6212,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 458.86, y: -47.795}
-  m_SizeDelta: {x: -1342.8954, y: -95.59}
+  m_AnchoredPosition: {x: 524, y: -39.12079}
+  m_SizeDelta: {x: -1261.936, y: -78.24158}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1797465317
 MonoBehaviour:
@@ -6623,9 +6380,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 21300000, guid: 035881cec74723e488d7b7f48c9c2b4c, type: 3}
   HasChoice: 1
   TextChoice1: Dialog6
-  choice1: 6
   TextChoice2: Dialog8
-  choice2: 8
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1914705086
 GameObject:
   m_ObjectHideFlags: 0
@@ -6812,9 +6569,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1929492980
 GameObject:
   m_ObjectHideFlags: 0
@@ -6867,9 +6624,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &2049416000
 GameObject:
   m_ObjectHideFlags: 0
@@ -6922,9 +6679,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &2051317133
 GameObject:
   m_ObjectHideFlags: 0
@@ -6977,9 +6734,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &2063867031
 GameObject:
   m_ObjectHideFlags: 0
@@ -7167,9 +6924,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &2120929556
 GameObject:
   m_ObjectHideFlags: 0
@@ -7390,9 +7147,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &2130177434
 GameObject:
   m_ObjectHideFlags: 0
@@ -7446,9 +7203,9 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &2145311895
 GameObject:
   m_ObjectHideFlags: 0
@@ -7501,6 +7258,6 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
-  choice1: 0
   TextChoice2: 
-  choice2: 0
+  TextChoice3: 
+  TextChoice4: 
