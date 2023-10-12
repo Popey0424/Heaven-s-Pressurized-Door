@@ -4156,6 +4156,61 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!1 &1050044833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1050044834}
+  - component: {fileID: 1050044835}
+  m_Layer: 0
+  m_Name: Dialog61
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1050044834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050044833}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1431248216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1050044835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050044833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: Don't tell me what to do !! Now, if we're al good, farewell. And you
+    better get us out of this mess a-live !!
+  TextNameCharacter: Sister Erika
+  SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 0}
+  SpriteCharacter2: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1070375662
 GameObject:
   m_ObjectHideFlags: 0
@@ -5101,6 +5156,9 @@ Transform:
   - {fileID: 1752573343}
   - {fileID: 89658213}
   - {fileID: 2049416001}
+  - {fileID: 1999551087}
+  - {fileID: 1050044834}
+  - {fileID: 1960974615}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5413,7 +5471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: N o, no, Sister Erika ! What are you doing ?
+  TextDialog: No, no, Sister Erika ! What are you doing ?
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
@@ -6682,6 +6740,115 @@ MonoBehaviour:
   TextDialog: Hey ! I'm just doing the Lord's work by helping you fixing your mistakes,
     alright ?
   TextNameCharacter: Sister Erika
+  SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 0}
+  SpriteCharacter2: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
+--- !u!1 &1960974614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1960974615}
+  - component: {fileID: 1960974616}
+  m_Layer: 0
+  m_Name: Dialog62
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1960974615
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960974614}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1431248216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1960974616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960974614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: Wait, Sister Erika ! You can't just leave us like that!!
+  TextNameCharacter: Bonnie
+  SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 0}
+  SpriteCharacter2: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
+--- !u!1 &1999551086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1999551087}
+  - component: {fileID: 1999551088}
+  m_Layer: 0
+  m_Name: Dialog60
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1999551087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999551086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1431248216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1999551088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999551086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: Sister ! Please calm down ! We are already stressed enough by the situation
+    !
+  TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
