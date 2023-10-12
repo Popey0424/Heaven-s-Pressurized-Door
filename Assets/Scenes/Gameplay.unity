@@ -504,9 +504,11 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  HasChoice: 0
-  TextChoice1: 
-  TextChoice2: 
+  HasChoice: 1
+  TextChoice1: Dialog54
+  TextChoice2: Dialog50
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &81457019
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,6 +561,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &85121076
 GameObject:
   m_ObjectHideFlags: 0
@@ -611,6 +615,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &85415978
 GameObject:
   m_ObjectHideFlags: 0
@@ -663,6 +669,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &87017133
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,6 +723,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &89658212
 GameObject:
   m_ObjectHideFlags: 0
@@ -768,6 +778,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &106250191
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,6 +833,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &177420049
 GameObject:
   m_ObjectHideFlags: 0
@@ -1161,6 +1175,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &212429524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1282,6 +1298,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &252091013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1411,6 +1429,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &370527961
 GameObject:
   m_ObjectHideFlags: 0
@@ -1519,6 +1539,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &391848268
 GameObject:
   m_ObjectHideFlags: 0
@@ -1571,6 +1593,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &398323273
 GameObject:
   m_ObjectHideFlags: 0
@@ -1623,6 +1647,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &506641863
 GameObject:
   m_ObjectHideFlags: 0
@@ -1676,6 +1702,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &510983707
 GameObject:
   m_ObjectHideFlags: 0
@@ -1728,6 +1756,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1870,9 +1900,11 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  HasChoice: 0
-  TextChoice1: 
-  TextChoice2: 
+  HasChoice: 1
+  TextChoice1: Dialog58
+  TextChoice2: Dialog43
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &552495651
 GameObject:
   m_ObjectHideFlags: 0
@@ -2201,9 +2233,11 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: e4b62388149e8b646b5454dc4873087d, type: 3}
-  HasChoice: 0
-  TextChoice1: 
-  TextChoice2: 
+  HasChoice: 1
+  TextChoice1: Dialog32
+  TextChoice2: Dialog20
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &593117521
 GameObject:
   m_ObjectHideFlags: 0
@@ -2257,6 +2291,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &616178839
 GameObject:
   m_ObjectHideFlags: 0
@@ -2445,6 +2481,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &657337877
 GameObject:
   m_ObjectHideFlags: 0
@@ -2500,6 +2538,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &703827573
 GameObject:
   m_ObjectHideFlags: 0
@@ -2553,6 +2593,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &729243048
 GameObject:
   m_ObjectHideFlags: 0
@@ -2727,6 +2769,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &734831436
 GameObject:
   m_ObjectHideFlags: 0
@@ -2780,6 +2824,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &757837391
 GameObject:
   m_ObjectHideFlags: 0
@@ -3042,9 +3088,11 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 21300000, guid: 18dd34c6a1135c640a5cc0116cafd77f, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 6db5e4ef1fd626b48b7056a687dc5749, type: 3}
-  HasChoice: 0
-  TextChoice1: 
-  TextChoice2: 
+  HasChoice: 1
+  TextChoice1: Dialog31
+  TextChoice2: Dialog18
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &765985866
 GameObject:
   m_ObjectHideFlags: 0
@@ -3094,9 +3142,11 @@ MonoBehaviour:
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 0}
   SpriteCharacter2: {fileID: 0}
-  HasChoice: 0
-  TextChoice1: 
-  TextChoice2: 
+  HasChoice: 1
+  TextChoice1: Dialog39
+  TextChoice2: Dialog37
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &792661460
 GameObject:
   m_ObjectHideFlags: 0
@@ -3149,6 +3199,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &793158839
 GameObject:
   m_ObjectHideFlags: 0
@@ -3201,6 +3253,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &823809032
 GameObject:
   m_ObjectHideFlags: 0
@@ -3253,6 +3307,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &831993492
 GameObject:
   m_ObjectHideFlags: 0
@@ -3383,6 +3439,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &851488786
 GameObject:
   m_ObjectHideFlags: 0
@@ -3557,6 +3615,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &926016397
 GameObject:
   m_ObjectHideFlags: 0
@@ -3609,6 +3669,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &964836842
 GameObject:
   m_ObjectHideFlags: 0
@@ -3661,6 +3723,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1014306219
 GameObject:
   m_ObjectHideFlags: 0
@@ -3714,6 +3778,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1019972467
 GameObject:
   m_ObjectHideFlags: 0
@@ -3767,6 +3833,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1023283822
 GameObject:
   m_ObjectHideFlags: 0
@@ -3819,6 +3887,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1040886139
 GameObject:
   m_ObjectHideFlags: 0
@@ -3873,6 +3943,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1043240000
 GameObject:
   m_ObjectHideFlags: 0
@@ -4136,6 +4208,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1189845917
 GameObject:
   m_ObjectHideFlags: 0
@@ -4191,6 +4265,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1195696069
 GameObject:
   m_ObjectHideFlags: 0
@@ -4245,6 +4321,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1205501897
 GameObject:
   m_ObjectHideFlags: 0
@@ -4509,6 +4587,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1259271138
 GameObject:
   m_ObjectHideFlags: 0
@@ -4562,6 +4642,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1261560042
 GameObject:
   m_ObjectHideFlags: 0
@@ -4648,6 +4730,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1341587373
 GameObject:
   m_ObjectHideFlags: 0
@@ -4701,6 +4785,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1355072383
 GameObject:
   m_ObjectHideFlags: 0
@@ -4754,6 +4840,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1367790784
 GameObject:
   m_ObjectHideFlags: 0
@@ -4921,6 +5009,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1431248215
 GameObject:
   m_ObjectHideFlags: 0
@@ -5142,6 +5232,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1531470878
 GameObject:
   m_ObjectHideFlags: 0
@@ -5329,6 +5421,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1607725858
 GameObject:
   m_ObjectHideFlags: 0
@@ -5517,8 +5611,10 @@ MonoBehaviour:
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 5852c968c27d6e44190785e8d5a846b5, type: 3}
   HasChoice: 1
-  TextChoice1: 
-  TextChoice2: 
+  TextChoice1: Dialog33
+  TextChoice2: Dialog12
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1625191086
 GameObject:
   m_ObjectHideFlags: 0
@@ -5571,6 +5667,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1628520056
 GameObject:
   m_ObjectHideFlags: 0
@@ -5624,6 +5722,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1694434319
 GameObject:
   m_ObjectHideFlags: 0
@@ -5677,6 +5777,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1735244406
 GameObject:
   m_ObjectHideFlags: 0
@@ -5866,6 +5968,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1771935170
 GameObject:
   m_ObjectHideFlags: 0
@@ -6340,6 +6444,8 @@ MonoBehaviour:
   HasChoice: 1
   TextChoice1: Dialog6
   TextChoice2: Dialog8
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1914705086
 GameObject:
   m_ObjectHideFlags: 0
@@ -6527,6 +6633,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1929492980
 GameObject:
   m_ObjectHideFlags: 0
@@ -6580,6 +6688,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &2032771327
 GameObject:
   m_ObjectHideFlags: 0
@@ -6632,6 +6742,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &2049416000
 GameObject:
   m_ObjectHideFlags: 0
@@ -6685,6 +6797,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &2051317133
 GameObject:
   m_ObjectHideFlags: 0
@@ -6738,6 +6852,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &2063867031
 GameObject:
   m_ObjectHideFlags: 0
@@ -6926,6 +7042,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &2120929556
 GameObject:
   m_ObjectHideFlags: 0
@@ -7147,6 +7265,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &2130177434
 GameObject:
   m_ObjectHideFlags: 0
@@ -7201,6 +7321,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &2145311895
 GameObject:
   m_ObjectHideFlags: 0
@@ -7254,3 +7376,5 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
