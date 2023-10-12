@@ -507,6 +507,8 @@ MonoBehaviour:
   HasChoice: 1
   TextChoice1: Dialog54
   TextChoice2: Dialog50
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &81457019
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,6 +561,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &85121076
 GameObject:
   m_ObjectHideFlags: 0
@@ -611,6 +615,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &85415978
 GameObject:
   m_ObjectHideFlags: 0
@@ -663,6 +669,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &87017133
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,6 +723,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &89658212
 GameObject:
   m_ObjectHideFlags: 0
@@ -768,6 +778,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &106250191
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,6 +833,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &177420049
 GameObject:
   m_ObjectHideFlags: 0
@@ -1161,6 +1175,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &212429524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1272,9 +1288,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TextDialog: Good morning ladies and gentlemans, my name is David Jones, I'll be
-    your pilot today and my crew and I are welcomed to have you on this Trans States
-    flight from New York to Los Angeles. Now please listen carefully to the safety
-    instrustions.
+    your pilot today and my crew and I are greatfull to have you on this American
+    Airlines flight from New York to Los Angeles. Now please listen carefully to
+    the safety instrustions.
   TextNameCharacter: David Jones
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 21300000, guid: faaec806a0f7f88469bf481873b40d02, type: 3}
@@ -1282,6 +1298,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &252091013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1358,6 +1376,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 252091013}
   m_CullTransparentMesh: 1
+--- !u!1 &294395051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 294395052}
+  - component: {fileID: 294395053}
+  m_Layer: 0
+  m_Name: Dialog65
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &294395052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294395051}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1431248216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &294395053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294395051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: No, It seems like you can fly a plane by yourself so do it. See you.
+  TextNameCharacter: Sister Erika
+  SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 0}
+  SpriteCharacter2: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &326823049
 GameObject:
   m_ObjectHideFlags: 0
@@ -1411,6 +1483,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &370527961
 GameObject:
   m_ObjectHideFlags: 0
@@ -1519,6 +1593,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &391848268
 GameObject:
   m_ObjectHideFlags: 0
@@ -1571,6 +1647,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &398323273
 GameObject:
   m_ObjectHideFlags: 0
@@ -1623,6 +1701,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &506641863
 GameObject:
   m_ObjectHideFlags: 0
@@ -1676,6 +1756,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &510983707
 GameObject:
   m_ObjectHideFlags: 0
@@ -1728,6 +1810,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1873,6 +1957,8 @@ MonoBehaviour:
   HasChoice: 1
   TextChoice1: Dialog58
   TextChoice2: Dialog43
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &552495651
 GameObject:
   m_ObjectHideFlags: 0
@@ -2204,6 +2290,8 @@ MonoBehaviour:
   HasChoice: 1
   TextChoice1: Dialog32
   TextChoice2: Dialog20
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &593117521
 GameObject:
   m_ObjectHideFlags: 0
@@ -2257,6 +2345,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &616178839
 GameObject:
   m_ObjectHideFlags: 0
@@ -2445,6 +2535,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &657337877
 GameObject:
   m_ObjectHideFlags: 0
@@ -2500,6 +2592,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &703827573
 GameObject:
   m_ObjectHideFlags: 0
@@ -2553,6 +2647,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &729243048
 GameObject:
   m_ObjectHideFlags: 0
@@ -2727,6 +2823,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &734831436
 GameObject:
   m_ObjectHideFlags: 0
@@ -2780,6 +2878,63 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
+--- !u!1 &740602311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 740602312}
+  - component: {fileID: 740602313}
+  m_Layer: 0
+  m_Name: Dialog63
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &740602312
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740602311}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1431248216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &740602313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740602311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: 'No, no, I don''t want to listen anything that is coming out of your
+    mouth ! '
+  TextNameCharacter: Sister Erika
+  SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 0}
+  SpriteCharacter2: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &757837391
 GameObject:
   m_ObjectHideFlags: 0
@@ -3045,6 +3200,8 @@ MonoBehaviour:
   HasChoice: 1
   TextChoice1: Dialog31
   TextChoice2: Dialog18
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &765985866
 GameObject:
   m_ObjectHideFlags: 0
@@ -3097,6 +3254,8 @@ MonoBehaviour:
   HasChoice: 1
   TextChoice1: Dialog39
   TextChoice2: Dialog37
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &792661460
 GameObject:
   m_ObjectHideFlags: 0
@@ -3149,6 +3308,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &793158839
 GameObject:
   m_ObjectHideFlags: 0
@@ -3201,6 +3362,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &823809032
 GameObject:
   m_ObjectHideFlags: 0
@@ -3253,6 +3416,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &831993492
 GameObject:
   m_ObjectHideFlags: 0
@@ -3383,6 +3548,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &851488786
 GameObject:
   m_ObjectHideFlags: 0
@@ -3557,6 +3724,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &926016397
 GameObject:
   m_ObjectHideFlags: 0
@@ -3609,6 +3778,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &964836842
 GameObject:
   m_ObjectHideFlags: 0
@@ -3661,6 +3832,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1014306219
 GameObject:
   m_ObjectHideFlags: 0
@@ -3714,6 +3887,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1019972467
 GameObject:
   m_ObjectHideFlags: 0
@@ -3767,6 +3942,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1023283822
 GameObject:
   m_ObjectHideFlags: 0
@@ -3819,6 +3996,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1040886139
 GameObject:
   m_ObjectHideFlags: 0
@@ -3873,6 +4052,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1043240000
 GameObject:
   m_ObjectHideFlags: 0
@@ -4137,6 +4318,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1070375662
 GameObject:
   m_ObjectHideFlags: 0
@@ -4189,6 +4372,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1189845917
 GameObject:
   m_ObjectHideFlags: 0
@@ -4234,9 +4419,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TextDialog: Welcome everybody on the UWU 707 flight in the direction of Los Angeles
-    this morning. Turn off during take off, landing and until we arrived at a parking
-    stand. When the seatbelt sign is on, fasten your seatbelt and your little ones
-    too securely until the end of the sign.
+    this morning. Put your seat in the upright position during take off, landing
+    and until we arrive at a parking stand. When the seatbelt sign is on, fasten
+    your seatbelt and your little ones securely too until the end of the sign.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
   SpriteBackground: {fileID: 21300000, guid: d490e68cde7a0204fbe9d37279624cb6, type: 3}
@@ -4244,6 +4429,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1195696069
 GameObject:
   m_ObjectHideFlags: 0
@@ -4298,6 +4485,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1205501897
 GameObject:
   m_ObjectHideFlags: 0
@@ -4562,6 +4751,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1259271138
 GameObject:
   m_ObjectHideFlags: 0
@@ -4606,8 +4797,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Is there somebody with aviation skills to help us in the cockpit ?
-    If so, please step at the head of the plane.
+  TextDialog: Is there somebody with aviation skills to help us in the cockpit? If
+    so, please step at the head of the plane.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
@@ -4615,6 +4806,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1261560042
 GameObject:
   m_ObjectHideFlags: 0
@@ -4701,6 +4894,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1341587373
 GameObject:
   m_ObjectHideFlags: 0
@@ -4754,6 +4949,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1355072383
 GameObject:
   m_ObjectHideFlags: 0
@@ -4807,6 +5004,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1367790784
 GameObject:
   m_ObjectHideFlags: 0
@@ -4974,6 +5173,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1431248215
 GameObject:
   m_ObjectHideFlags: 0
@@ -5067,6 +5268,9 @@ Transform:
   - {fileID: 1999551087}
   - {fileID: 1050044834}
   - {fileID: 1960974615}
+  - {fileID: 740602312}
+  - {fileID: 1683816136}
+  - {fileID: 294395052}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5198,6 +5402,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1531470878
 GameObject:
   m_ObjectHideFlags: 0
@@ -5385,6 +5591,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1607725858
 GameObject:
   m_ObjectHideFlags: 0
@@ -5575,6 +5783,8 @@ MonoBehaviour:
   HasChoice: 1
   TextChoice1: Dialog33
   TextChoice2: Dialog12
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1625191086
 GameObject:
   m_ObjectHideFlags: 0
@@ -5627,6 +5837,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1628520056
 GameObject:
   m_ObjectHideFlags: 0
@@ -5680,6 +5892,63 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
+--- !u!1 &1683816135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1683816136}
+  - component: {fileID: 1683816137}
+  m_Layer: 0
+  m_Name: Dialog64
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1683816136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683816135}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1431248216}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1683816137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683816135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: But Sister ! We are not going to last without you !  We NEED your help
+    !!
+  TextNameCharacter: Bonnie
+  SpriteCharacter: {fileID: 0}
+  SpriteBackground: {fileID: 0}
+  SpriteCharacter2: {fileID: 0}
+  HasChoice: 0
+  TextChoice1: 
+  TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1694434319
 GameObject:
   m_ObjectHideFlags: 0
@@ -5733,6 +6002,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1735244406
 GameObject:
   m_ObjectHideFlags: 0
@@ -5922,6 +6193,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1771935170
 GameObject:
   m_ObjectHideFlags: 0
@@ -6396,6 +6669,8 @@ MonoBehaviour:
   HasChoice: 1
   TextChoice1: Dialog6
   TextChoice2: Dialog8
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1914705086
 GameObject:
   m_ObjectHideFlags: 0
@@ -6583,6 +6858,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1929492980
 GameObject:
   m_ObjectHideFlags: 0
@@ -6636,6 +6913,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1960974614
 GameObject:
   m_ObjectHideFlags: 0
@@ -6688,6 +6967,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &1999551086
 GameObject:
   m_ObjectHideFlags: 0
@@ -6741,6 +7022,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &2032771327
 GameObject:
   m_ObjectHideFlags: 0
@@ -6793,6 +7076,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &2049416000
 GameObject:
   m_ObjectHideFlags: 0
@@ -6846,6 +7131,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &2051317133
 GameObject:
   m_ObjectHideFlags: 0
@@ -6899,6 +7186,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &2063867031
 GameObject:
   m_ObjectHideFlags: 0
@@ -7087,6 +7376,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &2120929556
 GameObject:
   m_ObjectHideFlags: 0
@@ -7308,6 +7599,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &2130177434
 GameObject:
   m_ObjectHideFlags: 0
@@ -7362,6 +7655,8 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
 --- !u!1 &2145311895
 GameObject:
   m_ObjectHideFlags: 0
@@ -7415,3 +7710,5 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  TextChoice3: 
+  TextChoice4: 
