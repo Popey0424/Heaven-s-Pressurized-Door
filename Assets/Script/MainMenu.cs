@@ -12,13 +12,18 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private Image ImageFade;
     [SerializeField] private GameObject MenuOptions;
     [SerializeField] private GameObject CreditsMenu;
-    
+
+    public void Start()
+    {
+        
+    }
+
 
     public void OnClickPlay()
     {
         ImageFade.DOFade(1, 2.9f).OnComplete(FadeComplete);
     }
-
+   
     private void FadeComplete()
     {
         SceneManager.LoadScene("Gameplay");
