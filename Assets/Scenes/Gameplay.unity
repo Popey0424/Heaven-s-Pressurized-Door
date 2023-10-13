@@ -632,7 +632,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: Okay, I'll do YOUR job. Just look after Siter Erika for me, please.
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 21300000, guid: 7c2cc0bf37812b14fa69ac105748fc30, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: ce58705b5666ca846a79b4cbb80bf3f1, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: bb963b17cfb0f6c438b70ff0f0f115a0, type: 3}
   HasChoice: 0
@@ -687,7 +687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: Oh no! No more drinks for the pilot except water!
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: 552b1b642369df7458657ba09873c7ee, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 1ae529cfc0f5fe84a9cf5343b0c57bd4, type: 3}
   HasChoice: 0
@@ -853,7 +853,7 @@ MonoBehaviour:
   TextDialog: Well I don't really think you are dreaming you, old woman, so, now
     get your butt in here and JUST FLY US AWAY FROM DESPAIR!
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: 552b1b642369df7458657ba09873c7ee, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 0
@@ -1852,7 +1852,7 @@ MonoBehaviour:
   TextDialog: Oh no, no, NO, NO, NO! It's your fault, ALL YOUR FAULT! Do you hear
     them? Screaming for us to get out? It's all your fault, BE DAMNED!
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: ce58705b5666ca846a79b4cbb80bf3f1, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
@@ -2837,7 +2837,7 @@ MonoBehaviour:
     who got the pilot drunk. All we ask is for you to straighten up the plane until
     we can land safely.
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: ce58705b5666ca846a79b4cbb80bf3f1, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 0
@@ -4045,7 +4045,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: Oh, you wouldn't dare to crash this plane?
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: ce58705b5666ca846a79b4cbb80bf3f1, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 0
@@ -4100,7 +4100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: YOU SHOULD WATCH YOUR LANGU-
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 21300000, guid: 7c2cc0bf37812b14fa69ac105748fc30, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: 552b1b642369df7458657ba09873c7ee, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 0
@@ -4212,7 +4212,7 @@ MonoBehaviour:
   TextDialog: Oh! I think the altitude made you forget that being here to help was
     one of the numerous requirements of you religious engagement.
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: ce58705b5666ca846a79b4cbb80bf3f1, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
@@ -4324,7 +4324,7 @@ MonoBehaviour:
     of life and death here! That means we don't have the time to tend to your desire.
     We need to act NOW AND FAST!
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: 552b1b642369df7458657ba09873c7ee, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
@@ -6223,7 +6223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: No, we don't. We're in an aircraft, not at a tea party!
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: ce58705b5666ca846a79b4cbb80bf3f1, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: ba2ed8ec4a2e1254c9d046f2c22cd0c1, type: 3}
   HasChoice: 0
@@ -7530,7 +7530,7 @@ MonoBehaviour:
   TextDialog: Oh, Missy, so now I am just an old lady? You know what? If it is just
     to yell at me, I may not feel like helping you at all.
   TextNameCharacter: Sister Erika
-  SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: 552b1b642369df7458657ba09873c7ee, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
