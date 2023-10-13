@@ -507,6 +507,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &81457019
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,6 +562,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &85121076
 GameObject:
   m_ObjectHideFlags: 0
@@ -611,6 +617,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &85415978
 GameObject:
   m_ObjectHideFlags: 0
@@ -663,6 +672,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &87017133
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,6 +727,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &89658212
 GameObject:
   m_ObjectHideFlags: 0
@@ -768,6 +783,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &106250191
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,6 +839,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &177420049
 GameObject:
   m_ObjectHideFlags: 0
@@ -1165,6 +1186,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &212429524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1286,6 +1310,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &252091013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1415,6 +1442,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &370527961
 GameObject:
   m_ObjectHideFlags: 0
@@ -1523,6 +1553,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &391848268
 GameObject:
   m_ObjectHideFlags: 0
@@ -1575,6 +1608,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &398323273
 GameObject:
   m_ObjectHideFlags: 0
@@ -1627,6 +1663,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &506641863
 GameObject:
   m_ObjectHideFlags: 0
@@ -1680,6 +1719,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &510983707
 GameObject:
   m_ObjectHideFlags: 0
@@ -1732,6 +1774,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1877,6 +1922,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &552495651
 GameObject:
   m_ObjectHideFlags: 0
@@ -2208,6 +2256,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &593117521
 GameObject:
   m_ObjectHideFlags: 0
@@ -2261,6 +2312,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &616178839
 GameObject:
   m_ObjectHideFlags: 0
@@ -2449,6 +2503,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &625757239
 GameObject:
   m_ObjectHideFlags: 0
@@ -2580,6 +2637,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &703827573
 GameObject:
   m_ObjectHideFlags: 0
@@ -2633,6 +2693,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &729243048
 GameObject:
   m_ObjectHideFlags: 0
@@ -2670,8 +2733,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 348.4734, y: -350.42468}
-  m_SizeDelta: {x: 383.5923, y: 93.4519}
+  m_AnchoredPosition: {x: 89, y: 344.45}
+  m_SizeDelta: {x: 759.672, y: 234.6091}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &729243050
 MonoBehaviour:
@@ -2808,6 +2871,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!82 &733014219
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2957,6 +3023,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &757837391
 GameObject:
   m_ObjectHideFlags: 0
@@ -3222,6 +3291,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &765985866
 GameObject:
   m_ObjectHideFlags: 0
@@ -3274,6 +3346,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &792661460
 GameObject:
   m_ObjectHideFlags: 0
@@ -3326,6 +3401,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &793158839
 GameObject:
   m_ObjectHideFlags: 0
@@ -3378,6 +3456,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &823809032
 GameObject:
   m_ObjectHideFlags: 0
@@ -3430,6 +3511,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &831993492
 GameObject:
   m_ObjectHideFlags: 0
@@ -3560,6 +3644,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &851488786
 GameObject:
   m_ObjectHideFlags: 0
@@ -3597,8 +3684,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -355, y: -374}
-  m_SizeDelta: {x: 383.5923, y: 93.4519}
+  m_AnchoredPosition: {x: 29, y: 66}
+  m_SizeDelta: {x: 759.67, y: 234.61}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &851488788
 MonoBehaviour:
@@ -3734,6 +3821,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &926016397
 GameObject:
   m_ObjectHideFlags: 0
@@ -3786,6 +3876,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &964836842
 GameObject:
   m_ObjectHideFlags: 0
@@ -3838,6 +3931,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1014306219
 GameObject:
   m_ObjectHideFlags: 0
@@ -3891,6 +3987,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1019972467
 GameObject:
   m_ObjectHideFlags: 0
@@ -3944,6 +4043,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1023283822
 GameObject:
   m_ObjectHideFlags: 0
@@ -3996,6 +4098,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1040886139
 GameObject:
   m_ObjectHideFlags: 0
@@ -4050,6 +4155,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1043240000
 GameObject:
   m_ObjectHideFlags: 0
@@ -4313,6 +4421,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1073335621
 GameObject:
   m_ObjectHideFlags: 0
@@ -4444,6 +4555,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1195696069
 GameObject:
   m_ObjectHideFlags: 0
@@ -4498,6 +4612,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1205501897
 GameObject:
   m_ObjectHideFlags: 0
@@ -4762,6 +4879,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1259271138
 GameObject:
   m_ObjectHideFlags: 0
@@ -4815,6 +4935,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1261560042
 GameObject:
   m_ObjectHideFlags: 0
@@ -4901,6 +5024,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1341587373
 GameObject:
   m_ObjectHideFlags: 0
@@ -4954,6 +5080,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1355072383
 GameObject:
   m_ObjectHideFlags: 0
@@ -5007,6 +5136,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1367790784
 GameObject:
   m_ObjectHideFlags: 0
@@ -5176,6 +5308,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1431248215
 GameObject:
   m_ObjectHideFlags: 0
@@ -5397,6 +5532,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1531470878
 GameObject:
   m_ObjectHideFlags: 0
@@ -5584,6 +5722,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1607725858
 GameObject:
   m_ObjectHideFlags: 0
@@ -5774,6 +5915,9 @@ MonoBehaviour:
   HasChoice: 1
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1625191086
 GameObject:
   m_ObjectHideFlags: 0
@@ -5826,6 +5970,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1628520056
 GameObject:
   m_ObjectHideFlags: 0
@@ -5879,6 +6026,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1694434319
 GameObject:
   m_ObjectHideFlags: 0
@@ -5932,6 +6082,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1735244406
 GameObject:
   m_ObjectHideFlags: 0
@@ -6121,6 +6274,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1771935170
 GameObject:
   m_ObjectHideFlags: 0
@@ -6595,6 +6751,9 @@ MonoBehaviour:
   HasChoice: 1
   TextChoice1: Dialog6
   TextChoice2: Dialog8
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1914705086
 GameObject:
   m_ObjectHideFlags: 0
@@ -6782,6 +6941,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &1929492980
 GameObject:
   m_ObjectHideFlags: 0
@@ -6835,6 +6997,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &2032771327
 GameObject:
   m_ObjectHideFlags: 0
@@ -6888,6 +7053,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!82 &2032771330
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7037,6 +7205,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &2051317133
 GameObject:
   m_ObjectHideFlags: 0
@@ -7090,6 +7261,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &2063867031
 GameObject:
   m_ObjectHideFlags: 0
@@ -7278,6 +7452,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &2120929556
 GameObject:
   m_ObjectHideFlags: 0
@@ -7499,6 +7676,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &2130177434
 GameObject:
   m_ObjectHideFlags: 0
@@ -7553,6 +7733,9 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
 --- !u!1 &2145311895
 GameObject:
   m_ObjectHideFlags: 0
@@ -7606,3 +7789,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
+  IDNextDialogChoice1: 0
+  IDNextDialogChoice2: 0
+  IDNextDialogNext: 0
