@@ -2775,8 +2775,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: 
-  TextNameCharacter: 
+  TextDialog: You did what ? I told you that was a bad idea to serve him champagne
+    !! What are we going to do with a knocked down pilot ?
+  TextNameCharacter: Robert
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 21300000, guid: c3160c7c8dd1eb544b41f7d5f9ebb181, type: 3}
   SpriteCharacter2: {fileID: 0}
@@ -6393,7 +6394,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 461.561, y: -23.271912}
+  m_AnchoredPosition: {x: 461.56104, y: -23.271973}
   m_SizeDelta: {x: -1112.351, y: -46.5378}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1797465317
@@ -6951,8 +6952,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: 
-  TextNameCharacter: 
+  TextDialog: Today is the retirement flight of our dear pilot David Jones and the
+    first flight of our newly grad Robert, please a round of applauses for their
+    success and to celebrate accordingly, we will serve unlimited champagne to everyone
+  TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 21300000, guid: 5dbc00833dffeaf4198332f432ff9b80, type: 3}
   SpriteCharacter2: {fileID: 0}
