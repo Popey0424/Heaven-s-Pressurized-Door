@@ -1609,7 +1609,7 @@ MonoBehaviour:
     such a stressful situation !
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 18dd34c6a1135c640a5cc0116cafd77f, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 20fadad908c3c8144b672c5f75dca31f, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
