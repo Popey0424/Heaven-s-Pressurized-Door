@@ -1852,7 +1852,7 @@ MonoBehaviour:
   TextDialog: Oh no, no, NO, NO, NO! It's your fault, ALL YOUR FAULT! Do you hear
     them? Screaming for us to get out? It's all your fault, BE DAMNED!
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
@@ -2131,7 +2131,7 @@ MonoBehaviour:
   TextDialog: Oh my Lord! Have faith in them. Are you, mademoiselle, trying to insinuate
     that I am not a good nun? IS THAT IT?!
   TextNameCharacter: Sister Erika
-  SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: 18dd34c6a1135c640a5cc0116cafd77f, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 1
@@ -2497,7 +2497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Alright, I will do my best !
+  TextDialog: Alright, I will do my best!
   TextNameCharacter: Robert
   SpriteCharacter: {fileID: 21300000, guid: c72dde3c5e46de149adbac02377837e3, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
@@ -2745,12 +2745,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Ladies and gentlemen, please regain your assigned seats and remain
-    calm.
+  TextDialog: 'Tell them : "Ladies and gentlemen, please regain your assigned seats
+    and remain calm."'
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: d490e68cde7a0204fbe9d37279624cb6, type: 3}
-  SpriteCharacter2: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 011d287a85c8c3b489d56baf12954ba4, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
@@ -3509,7 +3509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: Stop stressing me out! I am not the one who got the pilot drunk.
   TextNameCharacter: Sister Erika
-  SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 1
@@ -4156,7 +4156,7 @@ MonoBehaviour:
   TextDialog: Sweet Jesus! HOW CAN I LOWER MY VOLUME WHEN YOU'RE THE ONE SCREAMING?
     YOU'RE THE CRAZY ONE!
   TextNameCharacter: Sister Erika
-  SpriteCharacter: {fileID: 21300000, guid: 20fadad908c3c8144b672c5f75dca31f, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
@@ -4212,7 +4212,7 @@ MonoBehaviour:
   TextDialog: Oh! I think the altitude made you forget that being here to help was
     one of the numerous requirements of you religious engagement.
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 21300000, guid: 18dd34c6a1135c640a5cc0116cafd77f, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
@@ -4644,7 +4644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Oh my God, we are doomed. What have we done ??!!
+  TextDialog: Oh my God, we are doomed. What have we done?!
   TextNameCharacter: Robert
   SpriteCharacter: {fileID: 21300000, guid: 18dd34c6a1135c640a5cc0116cafd77f, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
@@ -4761,7 +4761,7 @@ MonoBehaviour:
     if they hear you screaming like a crazy babushka. And my poor ears can't stand
     your voice anymore.
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
@@ -5028,7 +5028,7 @@ MonoBehaviour:
   TextDialog: But it IS a stressful situation, we MUST land the plane at destination
     or at least the nearest airport.
   TextNameCharacter: Robert
-  SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: e7a4b08445ef7c6439e09fc58f1cbe32, type: 3}
   HasChoice: 0
@@ -5785,7 +5785,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TextDialog: I accept your apologies and yes, in about 45 minutes.
-  TextNameCharacter: Sikster Erika
+  TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
@@ -6388,7 +6388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TextDialog: Sister, you are our saviour, may the Lord be with us. I believe He
-    sent you to help us today !
+    sent you to help us today!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
@@ -7057,7 +7057,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Me, me, I flew a plane once !
+  TextDialog: Me, me, I flew a plane once!
   TextNameCharacter: ???
   SpriteCharacter: {fileID: 21300000, guid: c72dde3c5e46de149adbac02377837e3, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
