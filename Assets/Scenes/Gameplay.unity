@@ -501,14 +501,12 @@ MonoBehaviour:
   TextDialog: Me ?!! The Devil ?? How dare you ? Well, if you think I'm THAT evil,
     look what the Devil have prepared for you all.
   TextNameCharacter: Sister Erika
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 1
   TextChoice1: Dialog54
   TextChoice2: Dialog50
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &81457019
 GameObject:
   m_ObjectHideFlags: 0
@@ -561,8 +559,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &85121076
 GameObject:
   m_ObjectHideFlags: 0
@@ -615,8 +611,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &85415978
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,8 +663,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &87017133
 GameObject:
   m_ObjectHideFlags: 0
@@ -723,8 +715,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &89658212
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,14 +762,12 @@ MonoBehaviour:
   TextDialog: Well I don't really think you are dreaming you, old woman, so, onw
     get your butt in here and JUST FLY US AWAY FROM DESPAIR !!
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &106250191
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,12 +817,10 @@ MonoBehaviour:
   TextNameCharacter: Robert
   SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
-  SpriteCharacter2: {fileID: 21300000, guid: e4b62388149e8b646b5454dc4873087d, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 81952934ccb3675498ebce426dcffe07, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &177420049
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,6 +940,10 @@ MonoBehaviour:
   lines:
   - tjdjtjttjtjd
   textSpeed: 0.05
+  ImageFade2: {fileID: 0}
+  ImageFade4: {fileID: 0}
+  dialogueTriggerNumber: 5
+  dialogueTriggerNumberVictory: 4
 --- !u!114 &177420054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1175,8 +1165,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &212429524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1298,8 +1286,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &252091013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1422,14 +1408,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: No, It seems like you can fly a plane by yourself so do it. See you.
   TextNameCharacter: Sister Erika
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &326823049
 GameObject:
   m_ObjectHideFlags: 0
@@ -1483,8 +1467,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &370527961
 GameObject:
   m_ObjectHideFlags: 0
@@ -1593,8 +1575,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &391848268
 GameObject:
   m_ObjectHideFlags: 0
@@ -1641,14 +1621,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: Apologies then ! Hurry up !!
   TextNameCharacter: Sister Erika
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &398323273
 GameObject:
   m_ObjectHideFlags: 0
@@ -1701,8 +1679,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &506641863
 GameObject:
   m_ObjectHideFlags: 0
@@ -1756,8 +1732,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &510983707
 GameObject:
   m_ObjectHideFlags: 0
@@ -1810,8 +1784,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1957,8 +1929,6 @@ MonoBehaviour:
   HasChoice: 1
   TextChoice1: Dialog58
   TextChoice2: Dialog43
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &552495651
 GameObject:
   m_ObjectHideFlags: 0
@@ -2290,8 +2260,6 @@ MonoBehaviour:
   HasChoice: 1
   TextChoice1: Dialog32
   TextChoice2: Dialog20
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &593117521
 GameObject:
   m_ObjectHideFlags: 0
@@ -2345,8 +2313,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &616178839
 GameObject:
   m_ObjectHideFlags: 0
@@ -2535,8 +2501,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &657337877
 GameObject:
   m_ObjectHideFlags: 0
@@ -2592,8 +2556,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &703827573
 GameObject:
   m_ObjectHideFlags: 0
@@ -2641,14 +2603,12 @@ MonoBehaviour:
   TextDialog: I am sorry Sister Erika for doubting your faith. Now are we close to
     landing ?
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &729243048
 GameObject:
   m_ObjectHideFlags: 0
@@ -2823,8 +2783,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &734831436
 GameObject:
   m_ObjectHideFlags: 0
@@ -2878,8 +2836,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &740602311
 GameObject:
   m_ObjectHideFlags: 0
@@ -2927,14 +2883,12 @@ MonoBehaviour:
   TextDialog: 'No, no, I don''t want to listen anything that is coming out of your
     mouth ! '
   TextNameCharacter: Sister Erika
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &757837391
 GameObject:
   m_ObjectHideFlags: 0
@@ -3200,8 +3154,6 @@ MonoBehaviour:
   HasChoice: 1
   TextChoice1: Dialog31
   TextChoice2: Dialog18
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &765985866
 GameObject:
   m_ObjectHideFlags: 0
@@ -3254,8 +3206,6 @@ MonoBehaviour:
   HasChoice: 1
   TextChoice1: Dialog39
   TextChoice2: Dialog37
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &792661460
 GameObject:
   m_ObjectHideFlags: 0
@@ -3308,8 +3258,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &793158839
 GameObject:
   m_ObjectHideFlags: 0
@@ -3362,8 +3310,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &823809032
 GameObject:
   m_ObjectHideFlags: 0
@@ -3416,8 +3362,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &831993492
 GameObject:
   m_ObjectHideFlags: 0
@@ -3542,14 +3486,12 @@ MonoBehaviour:
   TextDialog: Yes, I heard but I can't deal with them, can you do it ? Maybe the
     Devil doesn't wear Prada but a religious habit, isn't it ?
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: f3c75686de298d9478b001eb993fe424, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &851488786
 GameObject:
   m_ObjectHideFlags: 0
@@ -3718,14 +3660,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: NOOOOO SISTER
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &926016397
 GameObject:
   m_ObjectHideFlags: 0
@@ -3772,14 +3712,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: Oh, you wouldn't dare to crash this plane ?
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &964836842
 GameObject:
   m_ObjectHideFlags: 0
@@ -3832,8 +3770,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1014306219
 GameObject:
   m_ObjectHideFlags: 0
@@ -3887,8 +3823,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1019972467
 GameObject:
   m_ObjectHideFlags: 0
@@ -3942,8 +3876,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1023283822
 GameObject:
   m_ObjectHideFlags: 0
@@ -3996,8 +3928,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1040886139
 GameObject:
   m_ObjectHideFlags: 0
@@ -4052,8 +3982,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1043240000
 GameObject:
   m_ObjectHideFlags: 0
@@ -4312,14 +4240,12 @@ MonoBehaviour:
   TextDialog: Don't tell me what to do !! Now, if we're al good, farewell. And you
     better get us out of this mess a-live !!
   TextNameCharacter: Sister Erika
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1070375662
 GameObject:
   m_ObjectHideFlags: 0
@@ -4372,8 +4298,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1189845917
 GameObject:
   m_ObjectHideFlags: 0
@@ -4429,8 +4353,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1195696069
 GameObject:
   m_ObjectHideFlags: 0
@@ -4485,8 +4407,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1205501897
 GameObject:
   m_ObjectHideFlags: 0
@@ -4747,12 +4667,10 @@ MonoBehaviour:
   TextNameCharacter: Robert
   SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
-  SpriteCharacter2: {fileID: 21300000, guid: 6db5e4ef1fd626b48b7056a687dc5749, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: e7a4b08445ef7c6439e09fc58f1cbe32, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1259271138
 GameObject:
   m_ObjectHideFlags: 0
@@ -4806,8 +4724,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1261560042
 GameObject:
   m_ObjectHideFlags: 0
@@ -4894,8 +4810,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1341587373
 GameObject:
   m_ObjectHideFlags: 0
@@ -4949,8 +4863,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1355072383
 GameObject:
   m_ObjectHideFlags: 0
@@ -5004,8 +4916,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1367790784
 GameObject:
   m_ObjectHideFlags: 0
@@ -5173,8 +5083,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1431248215
 GameObject:
   m_ObjectHideFlags: 0
@@ -5396,14 +5304,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: I accept your apologies and yes, in about 45 minutes.
   TextNameCharacter: Sikster Erika
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1531470878
 GameObject:
   m_ObjectHideFlags: 0
@@ -5585,14 +5491,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: No, no, Sister Erika ! What are you doing ?
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1607725858
 GameObject:
   m_ObjectHideFlags: 0
@@ -5783,8 +5687,6 @@ MonoBehaviour:
   HasChoice: 1
   TextChoice1: Dialog33
   TextChoice2: Dialog12
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1625191086
 GameObject:
   m_ObjectHideFlags: 0
@@ -5831,14 +5733,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: No, we don't. We're in a aircraft, not a tea party !
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
-  SpriteCharacter2: {fileID: 21300000, guid: 035881cec74723e488d7b7f48c9c2b4c, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: ba2ed8ec4a2e1254c9d046f2c22cd0c1, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1628520056
 GameObject:
   m_ObjectHideFlags: 0
@@ -5892,8 +5792,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1683816135
 GameObject:
   m_ObjectHideFlags: 0
@@ -5941,14 +5839,12 @@ MonoBehaviour:
   TextDialog: But Sister ! We are not going to last without you !  We NEED your help
     !!
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1694434319
 GameObject:
   m_ObjectHideFlags: 0
@@ -6002,8 +5898,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1735244406
 GameObject:
   m_ObjectHideFlags: 0
@@ -6187,14 +6081,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: I'M TOO YOUNG TO DIE
   TextNameCharacter: Robert
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: e7a4b08445ef7c6439e09fc58f1cbe32, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1771935170
 GameObject:
   m_ObjectHideFlags: 0
@@ -6500,7 +6392,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 461.561, y: -23.271912}
+  m_AnchoredPosition: {x: 461.561, y: -23.27185}
   m_SizeDelta: {x: -1112.351, y: -46.5378}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1797465317
@@ -6669,8 +6561,6 @@ MonoBehaviour:
   HasChoice: 1
   TextChoice1: Dialog6
   TextChoice2: Dialog8
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1914705086
 GameObject:
   m_ObjectHideFlags: 0
@@ -6852,14 +6742,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: Watch me darling !!!
   TextNameCharacter: Sister Erika
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 19475ec70162a7647b01f8c8a4783009, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1929492980
 GameObject:
   m_ObjectHideFlags: 0
@@ -6913,8 +6801,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1960974614
 GameObject:
   m_ObjectHideFlags: 0
@@ -6961,14 +6847,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: Wait, Sister Erika ! You can't just leave us like that!!
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &1999551086
 GameObject:
   m_ObjectHideFlags: 0
@@ -7016,14 +6900,12 @@ MonoBehaviour:
   TextDialog: Sister ! Please calm down ! We are already stressed enough by the situation
     !
   TextNameCharacter: Bonnie
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &2032771327
 GameObject:
   m_ObjectHideFlags: 0
@@ -7076,8 +6958,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &2049416000
 GameObject:
   m_ObjectHideFlags: 0
@@ -7125,14 +7005,12 @@ MonoBehaviour:
   TextDialog: Oh, Missy, so now I am just an old lady ? You know what ? If it is
     just to yell at me, I may not feel like helping you at all.
   TextNameCharacter: Sister Erika
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &2051317133
 GameObject:
   m_ObjectHideFlags: 0
@@ -7186,8 +7064,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &2063867031
 GameObject:
   m_ObjectHideFlags: 0
@@ -7376,8 +7252,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &2120929556
 GameObject:
   m_ObjectHideFlags: 0
@@ -7599,8 +7473,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &2130177434
 GameObject:
   m_ObjectHideFlags: 0
@@ -7655,8 +7527,6 @@ MonoBehaviour:
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
 --- !u!1 &2145311895
 GameObject:
   m_ObjectHideFlags: 0
@@ -7704,11 +7574,9 @@ MonoBehaviour:
   TextDialog: Miss Bonnie ? The passengers are getiing angrier by the minute in the
     aisles? They are demanding to know what is up with the yelling in the cockpit.
   TextNameCharacter: Robert
-  SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 0}
-  SpriteCharacter2: {fileID: 0}
+  SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteCharacter2: {fileID: 21300000, guid: 81952934ccb3675498ebce426dcffe07, type: 3}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
-  TextChoice3: 
-  TextChoice4: 
