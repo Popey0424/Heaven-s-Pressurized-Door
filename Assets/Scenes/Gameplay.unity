@@ -574,8 +574,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Me ?!! The Devil ?? How dare you ? Well, if you think I'm THAT evil,
-    look what the Devil have prepared for you all.
+  TextDialog: Me?! The Devil? How dare you? Well, if you think I'm THAT evil, look
+    what the Devil have prepared for you all.
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -850,8 +850,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Well I don't really think you are dreaming you, old woman, so, onw
-    get your butt in here and JUST FLY US AWAY FROM DESPAIR !!
+  TextDialog: Well I don't really think you are dreaming you, old woman, so, now
+    get your butt in here and JUST FLY US AWAY FROM DESPAIR!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -907,7 +907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TextDialog: So, everyone is reassured but they are asking for snacks with their
-    champagne. What do I do ?
+    champagne. What do I do?
   TextNameCharacter: Robert
   SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -1383,10 +1383,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Good morning ladies and gentlemans, my name is David Jones, I'll be
+  TextDialog: Good morning ladies and gentlemen, my name is David Jones, I'll be
     your pilot today and my crew and I are grateful to have you on this American
     Airlines flight from New York to Los Angeles. Now please listen carefully to
-    the safety instrustions.
+    the safety instructions.
   TextNameCharacter: David Jones
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 21300000, guid: faaec806a0f7f88469bf481873b40d02, type: 3}
@@ -1684,7 +1684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TextDialog: Well, excuuuuse me miss, for only wanting to be more comfortable in
-    such a stressful situation !
+    such a stressful situation!
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 18dd34c6a1135c640a5cc0116cafd77f, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -1739,7 +1739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Apologies then ! Hurry up !!
+  TextDialog: I demand apologies then! Hurry up!
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -1849,8 +1849,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Oh no, no, NO, NO, NO !!!! It's youy fault, ALL YOUR FAULT !! Do you
-    hear them ? Screaming for us to get out ? It's all your fault, BE DAMNED !!
+  TextDialog: Oh no, no, NO, NO, NO! It's your fault, ALL YOUR FAULT! Do you hear
+    them? Screaming for us to get out? It's all your fault, BE DAMNED!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -2128,8 +2128,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Oh my Lord ! Have faith in them. Are you, mademoiselle, trying to insinuate
-    that I am not a good nun ? IS THAT IT ???!
+  TextDialog: Oh my Lord! Have faith in them. Are you, mademoiselle, trying to insinuate
+    that I am not a good nun? IS THAT IT?!
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -2828,7 +2828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Allegations, false allegations ! As a Sister going to Vegas, you are
+  TextDialog: Allegations, false allegations! As a Sister going to Vegas, you are
     talking quite a lot. Excuse me but it is none of your business to care about
     who got the pilot drunk. All we ask is for you to straighten up the plane until
     we can land safely.
@@ -2886,8 +2886,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: I am sorry Sister Erika for doubting your faith. Now are we close to
-    landing ?
+  TextDialog: I am sorry Sister Erika for doubting of your faith. Now are we close
+    to landing?
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -3064,8 +3064,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: You did what ? I told you that was a bad idea to serve him champagne
-    !! What are we going to do with a knocked down pilot ?
+  TextDialog: You did what? I told you it was a bad idea to serve him champagne!
+    What are we going to do with a knocked down pilot?
   TextNameCharacter: Robert
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 21300000, guid: c3160c7c8dd1eb544b41f7d5f9ebb181, type: 3}
@@ -3176,8 +3176,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: 'No, no, I don''t want to listen anything that is coming out of your
-    mouth ! '
+  TextDialog: 'No, no, I don''t want to listen to anything that is coming out of
+    your mouth! '
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -3500,7 +3500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Stop stressing me out ! I am not the one who got the pilot drunk.
+  TextDialog: Stop stressing me out! I am not the one who got the pilot drunk.
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -3798,8 +3798,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Yes, I heard but I can't deal with them, can you do it ? Maybe the
-    Devil doesn't wear Prada but a religious habit, isn't it ?
+  TextDialog: Yes, I heard but I can't deal with them, can you do it? Maybe the Devil
+    doesn't wear Prada but a religious garment, isn't it?
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -3976,7 +3976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: NOOOOO SISTER
+  TextDialog: NOOOOO SISTER!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -4031,7 +4031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Oh, you wouldn't dare to crash this plane ?
+  TextDialog: Oh, you wouldn't dare to crash this plane?
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -4141,8 +4141,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Sweet Jesus ! HOW CAN I LOWER MY VOLUME WHEN YOU'RE THE ONE SCREAMING
-    ? YO
+  TextDialog: Sweet Jesus! HOW CAN I LOWER MY VOLUME WHEN YOU'RE THE ONE SCREAMING?
+    YOU'RE THE CRAZY ONE!
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 20fadad908c3c8144b672c5f75dca31f, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -4197,8 +4197,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Oh ! I think the altitude made you forget that being rea to help was
-    one of the numorous requirements of the Sisterhood.
+  TextDialog: Oh! I think the altitude made you forget that being here to help was
+    one of the numerous requirements of you religious engagement.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 18dd34c6a1135c640a5cc0116cafd77f, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -4309,8 +4309,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TextDialog: Oh, it seems you didn't understand the situation, Sister. It's a matter
-    of life or death here ! That means we don't have the time to tend to your desire.
-    We need to act NOW AND FAST !!!
+    of life or death here! That means we don't have the time to tend to your desire.
+    We need to act NOW AND FAST!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -4576,8 +4576,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Don't tell me what to do !! Now, if we're al good, farewell. And you
-    better get us out of this mess a-live !!
+  TextDialog: Don't tell me what to do! Now, if we're all good, farewell. And you
+    better get us out of this mess alive !
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -4687,10 +4687,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Welcome everybody on the UWU 707 flight in the direction of Los Angeles
+  TextDialog: Welcome everybody on the UWU 707 flight in direction of Los Angeles
     this morning. Put your seat in the upright position during take off, landing
     and until we arrive at a parking stand. When the seatbelt sign is on, fasten
-    your seatbelt and your little ones securely too until the end of the sign.
+    your seatbelt and your little ones safely too until the end of the sign.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
   SpriteBackground: {fileID: 21300000, guid: d490e68cde7a0204fbe9d37279624cb6, type: 3}
@@ -4745,8 +4745,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Can you just PLEASE, LOWER THE VOLUME ? People are gonna get worried
-    if they hear you screaming like a crazy babuska. And mmy poor ears can't stand
+  TextDialog: Can you just PLEASE, LOWER THE VOLUME? People are gonna get worried
+    if they hear you screaming like a crazy babushka. And my poor ears can't stand
     your voice anymore.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
@@ -5865,7 +5865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: No, no, Sister Erika ! What are you doing ?
+  TextDialog: No, no, Sister Erika! What are you doing?
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -6112,7 +6112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: No, we don't. We're in a aircraft, not a tea party !
+  TextDialog: No, we don't. We're in a aircraft, not a tea party!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -6223,8 +6223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: But Sister ! We are not going to last without you !  We NEED your help
-    !!
+  TextDialog: But Sister! We are not going to last without you!  We NEED your help!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -6472,7 +6471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: I'M TOO YOUNG TO DIE
+  TextDialog: I'M TOO YOUNG TO DIE!
   TextNameCharacter: Robert
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -7139,7 +7138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Watch me darling !!!
+  TextDialog: Watch me darling!
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -7194,8 +7193,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Hey ! I'm just doing the Lord's work by helping you fixing your mistakes,
-    alright ?
+  TextDialog: Hey! I'm just doing the Lord's work by helping you fixing your mistakes,
+    alright?
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 18dd34c6a1135c640a5cc0116cafd77f, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -7250,7 +7249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Wait, Sister Erika ! You can't just leave us like that!!
+  TextDialog: Wait, Sister Erika! You can't just leave us like that!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -7305,8 +7304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Sister ! Please calm down ! We are already stressed enough by the situation
-    !
+  TextDialog: Sister! Please calm down! We are already stressed enough by the situation!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -7362,8 +7360,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TextDialog: Today is the retirement flight of our dear pilot David Jones and the
-    first flight of our newly grad Robert, please a round of applauses for their
-    success and to celebrate accordingly, we will serve unlimited champagne to everyone
+    first flight of our newly grad Robert, please a round of applause for their success
+    and to celebrate accordingly, we will serve unlimited champagne to everyone.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 0}
   SpriteBackground: {fileID: 21300000, guid: 5dbc00833dffeaf4198332f432ff9b80, type: 3}
@@ -7418,8 +7416,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Oh, Missy, so now I am just an old lady ? You know what ? If it is
-    just to yell at me, I may not feel like helping you at all.
+  TextDialog: Oh, Missy, so now I am just an old lady? You know what? If it is just
+    to yell at me, I may not feel like helping you at all.
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
@@ -8002,8 +8000,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Miss Bonnie ? The passengers are getiing angrier by the minute in the
-    aisles? They are demanding to know what is up with the yelling in the cockpit.
+  TextDialog: Miss Bonnie? The passengers are getting angrier by the minute in the
+    aisles! They are demanding to know what is up with the yelling in the cockpit.
   TextNameCharacter: Robert
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
