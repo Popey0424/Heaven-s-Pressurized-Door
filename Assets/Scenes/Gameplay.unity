@@ -581,8 +581,8 @@ MonoBehaviour:
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 1
-  TextChoice1: Dialog54
-  TextChoice2: Dialog50
+  TextChoice1: Oh, you wouldn't dare to crash this plane?
+  TextChoice2: No, no, Sister Erika! What are you doing?
   IDNextDialogChoice1: 56
   IDNextDialogChoice2: 52
   IDNextDialogNext: 52
@@ -2135,8 +2135,11 @@ MonoBehaviour:
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 1
-  TextChoice1: Dialog58
-  TextChoice2: Dialog43
+  TextChoice1: Well I don't really think you are dreaming you, old woman, so, now
+    get your butt in here and JUST FLY US AWAY FROM DESPAIR!
+  TextChoice2: Can you just PLEASE, LOWER THE VOLUME? People are gonna get worried
+    if they hear you screaming like a crazy babushka. And my poor ears can't stand
+    your voice anymore.
   IDNextDialogChoice1: 60
   IDNextDialogChoice2: 45
   IDNextDialogNext: 45
@@ -2500,8 +2503,9 @@ MonoBehaviour:
   SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 24e2a865b3815794d8a9ba880997a53e, type: 3}
   HasChoice: 1
-  TextChoice1: Dialog32
-  TextChoice2: Dialog20
+  TextChoice1: So, everyone is reassured but they are asking for snacks with their
+    champagne. What do I do?
+  TextChoice2: So, they are furious at me and they are juuust behind the curtains.
   IDNextDialogChoice1: 34
   IDNextDialogChoice2: 22
   IDNextDialogNext: 22
@@ -3451,8 +3455,11 @@ MonoBehaviour:
   SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: bb963b17cfb0f6c438b70ff0f0f115a0, type: 3}
   HasChoice: 1
-  TextChoice1: Dialog31
-  TextChoice2: Dialog18
+  TextChoice1: Morning everyone! We hope you are all enjoying your flight. We will
+    continue our route to Los Angeles without any inconvenience and thank you again
+    for choosing our company.
+  TextChoice2: 'Tell them : "Hi everyone, don''t worry, we have found a great backup
+    pilot, so we hopefully won''t die today."'
   IDNextDialogChoice1: 33
   IDNextDialogChoice2: 20
   IDNextDialogNext: 20
@@ -3506,8 +3513,13 @@ MonoBehaviour:
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 1
-  TextChoice1: Dialog39
-  TextChoice2: Dialog37
+  TextChoice1: Oh, it seems you didn't understand the situation, Sister. It's a matter
+    of life or death here! That means we don't have the time to tend to your desire.
+    We need to act NOW AND FAST!
+  TextChoice2: Allegations, false allegations! As a Sister going to Vegas, you are
+    talking quite a lot. Excuse me but it is none of your business to care about
+    who got the pilot drunk. All we ask is for you to straighten up the plane until
+    we can land safely.
   IDNextDialogChoice1: 41
   IDNextDialogChoice2: 39
   IDNextDialogNext: 39
@@ -6063,8 +6075,8 @@ MonoBehaviour:
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 1c8c1a8a4b021e84a85d038947f9f2e2, type: 3}
   HasChoice: 1
-  TextChoice1: Dialog33
-  TextChoice2: Dialog12
+  TextChoice1: No, we don't. We're in a aircraft, not a tea party!
+  TextChoice2: My apologies, we do have regular pillows, would that be ok?
   IDNextDialogChoice1: 35
   IDNextDialogChoice2: 14
   IDNextDialogNext: 14
@@ -6954,8 +6966,10 @@ MonoBehaviour:
   SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 19475ec70162a7647b01f8c8a4783009, type: 3}
   HasChoice: 1
-  TextChoice1: Dialog6
-  TextChoice2: Dialog8
+  TextChoice1: Sister, you are our saviour, may the Lord be with us. I believe He
+    sent you to help us today !
+  TextChoice2: So, sister, you have flown a plane before, right? Did you kill anybody
+    during the landing?
   IDNextDialogChoice1: 8
   IDNextDialogChoice2: 10
   IDNextDialogNext: 8
