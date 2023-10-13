@@ -942,8 +942,8 @@ MonoBehaviour:
   textSpeed: 0.05
   ImageFade2: {fileID: 625757241}
   ImageFade4: {fileID: 1073335623}
-  dialogueTriggerNumber: 5
-  dialogueTriggerNumberVictory: 4
+  dialogueTriggerNumber: 15
+  dialogueTriggerNumberVictory: 11
 --- !u!114 &177420054
 MonoBehaviour:
   m_ObjectHideFlags: 0
