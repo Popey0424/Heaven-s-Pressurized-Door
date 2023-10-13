@@ -19,11 +19,11 @@ public class MainGame : MonoBehaviour
     public Image spriteBackground;
     public Image ImageCharacter2;
     public Button choiceButton1;
-    
+
     public Button choiceButton2;
 
     public Button ButtonContinuer;
-    
+
 
     public string[] lines;
     public float textSpeed;
@@ -32,8 +32,8 @@ public class MainGame : MonoBehaviour
     [SerializeField] private Image ImageFade4;
     private int index;
     private int dialog = 0;
-    public int dialogueTriggerNumber = 5;
-    public int dialogueTriggerNumberVictory = 4;
+    [SerializeField] private int dialogueTriggerNumber;
+    [SerializeField] private int dialogueTriggerNumberVictory;
     int _sequenceNumber;
 
     #region BuildIn
@@ -54,7 +54,7 @@ public class MainGame : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
         {
-            
+
 
             StopAllCoroutines();
             TextDialog.text = Dialogs[_sequenceNumber].TextDialog;
@@ -70,29 +70,23 @@ public class MainGame : MonoBehaviour
         {
             ShowButtonsToContinue(Dialogs[_sequenceNumber]);
         }
+
+        print(_sequenceNumber);
         if (_sequenceNumber == dialogueTriggerNumber)
         {
-            
             ImageFade2.DOFade(1, 2.9f).OnComplete(FadeComplete);
             void FadeComplete()
             {
                 SceneManager.LoadScene("DeathScene");
             }
-         
-                
-      
         }
-        if (_sequenceNumber == dialogueTriggerNumberVictory)
+        else if (_sequenceNumber == dialogueTriggerNumberVictory)
         {
-
             ImageFade4.DOFade(1, 2.9f).OnComplete(FadeComplete);
             void FadeComplete()
             {
                 SceneManager.LoadScene("VictoryScene");
             }
-
-
-
         }
     }
     #endregion
@@ -106,17 +100,16 @@ public class MainGame : MonoBehaviour
         switch (dialog)
         {
             case 1:
-
-                _sequenceNumber = 10;
+                _sequenceNumber = Dialogs[_sequenceNumber].IDNextDialogChoice1;
                 UpdateDialogSequence(Dialogs[_sequenceNumber]);
                 break;
             case 2:
 
-                _sequenceNumber = 8;
+                _sequenceNumber = Dialogs[_sequenceNumber].IDNextDialogChoice2;
                 UpdateDialogSequence(Dialogs[_sequenceNumber]);
                 break;
-           
-            
+
+
         }
 
         choiceButton1.gameObject.SetActive(false);
@@ -186,7 +179,14 @@ public class MainGame : MonoBehaviour
 
     public void OnClickNextDialog()
     {
-        _sequenceNumber++;
+        if (_sequenceNumber == 0)
+        {
+            _sequenceNumber++;
+        }
+        else
+        {
+            _sequenceNumber = Dialogs[_sequenceNumber].IDNextDialogNext;
+        }
         if (_sequenceNumber >= Dialogs.Length)
         {
             ButtonContinuer.gameObject.SetActive(false);

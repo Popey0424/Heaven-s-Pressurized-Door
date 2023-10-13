@@ -14,6 +14,9 @@ public class DialogSequence : MonoBehaviour
     public bool HasChoice;
     public string TextChoice1;
     public string TextChoice2;
+    public int IDNextDialogChoice1;
+    public int IDNextDialogChoice2;
+    public int IDNextDialogNext;
 
 }
 
