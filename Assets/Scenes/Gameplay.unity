@@ -4321,7 +4321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TextDialog: Oh, it seems you didn't understand the situation, Sister. It's a matter
-    of life or death here! That means we don't have the time to tend to your desire.
+    of life and death here! That means we don't have the time to tend to your desire.
     We need to act NOW AND FAST!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
@@ -6221,7 +6221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: No, we don't. We're in a aircraft, not a tea party!
+  TextDialog: No, we don't. We're in an aircraft, not at a tea party!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
