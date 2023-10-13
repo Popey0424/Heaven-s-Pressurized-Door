@@ -6,6 +6,8 @@ using TMPro;
 using System;
 using Unity.VisualScripting;
 using System.Linq;
+using UnityEngine.SceneManagement;
+using DG.Tweening;
 
 public class MainGame : MonoBehaviour
 {
@@ -26,10 +28,12 @@ public class MainGame : MonoBehaviour
     public string[] lines;
     public float textSpeed;
     private bool isTextFinish = false;
-
+    [SerializeField] private Image ImageFade2;
+    [SerializeField] private Image ImageFade4;
     private int index;
     private int dialog = 0;
-
+    public int dialogueTriggerNumber = 5;
+    public int dialogueTriggerNumberVictory = 4;
     int _sequenceNumber;
 
     #region BuildIn
@@ -66,7 +70,30 @@ public class MainGame : MonoBehaviour
         {
             ShowButtonsToContinue(Dialogs[_sequenceNumber]);
         }
-        
+        if (_sequenceNumber == dialogueTriggerNumber)
+        {
+            
+            ImageFade2.DOFade(1, 2.9f).OnComplete(FadeComplete);
+            void FadeComplete()
+            {
+                SceneManager.LoadScene("DeathScene");
+            }
+         
+                
+      
+        }
+        if (_sequenceNumber == dialogueTriggerNumberVictory)
+        {
+
+            ImageFade4.DOFade(1, 2.9f).OnComplete(FadeComplete);
+            void FadeComplete()
+            {
+                SceneManager.LoadScene("VictoryScene");
+            }
+
+
+
+        }
     }
     #endregion
 
@@ -80,12 +107,12 @@ public class MainGame : MonoBehaviour
         {
             case 1:
 
-                _sequenceNumber = 8;
+                _sequenceNumber = 10;
                 UpdateDialogSequence(Dialogs[_sequenceNumber]);
                 break;
             case 2:
 
-                _sequenceNumber = 6;
+                _sequenceNumber = 8;
                 UpdateDialogSequence(Dialogs[_sequenceNumber]);
                 break;
            
