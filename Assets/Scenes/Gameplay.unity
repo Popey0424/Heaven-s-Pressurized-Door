@@ -3455,9 +3455,9 @@ MonoBehaviour:
   SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: bb963b17cfb0f6c438b70ff0f0f115a0, type: 3}
   HasChoice: 1
-  TextChoice1: Morning everyone! We hope you are all enjoying your flight. We will
-    continue our route to Los Angeles without any inconvenience and thank you again
-    for choosing our company.
+  TextChoice1: 'Tell them : "Morning everyone! We hope you are all enjoying your
+    flight. We will continue our route to Los Angeles without any inconvenience and
+    thank you again for choosing our company."'
   TextChoice2: 'Tell them : "Hi everyone, don''t worry, we have found a great backup
     pilot, so we hopefully won''t die today."'
   IDNextDialogChoice1: 33
@@ -6172,7 +6172,7 @@ MonoBehaviour:
   SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 1c8c1a8a4b021e84a85d038947f9f2e2, type: 3}
   HasChoice: 1
-  TextChoice1: No, we don't. We're in a aircraft, not a tea party!
+  TextChoice1: No, we don't. We're in an aircraft, not at a tea party!
   TextChoice2: My apologies, we do have regular pillows, would that be ok?
   IDNextDialogChoice1: 35
   IDNextDialogChoice2: 14
