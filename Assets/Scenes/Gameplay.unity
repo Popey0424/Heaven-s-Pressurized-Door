@@ -917,7 +917,7 @@ MonoBehaviour:
   TextChoice2: 
   IDNextDialogChoice1: 0
   IDNextDialogChoice2: 0
-  IDNextDialogNext: 35
+  IDNextDialogNext: 23
 --- !u!1 &177420049
 GameObject:
   m_ObjectHideFlags: 0
@@ -5623,9 +5623,9 @@ Transform:
   - {fileID: 1341587374}
   - {fileID: 1023283823}
   - {fileID: 326823050}
+  - {fileID: 85121077}
   - {fileID: 2130177435}
   - {fileID: 106250192}
-  - {fileID: 85121077}
   - {fileID: 1625191087}
   - {fileID: 372872373}
   - {fileID: 1213186246}
@@ -8066,7 +8066,7 @@ MonoBehaviour:
   TextChoice2: 
   IDNextDialogChoice1: 0
   IDNextDialogChoice2: 0
-  IDNextDialogNext: 34
+  IDNextDialogNext: 21
 --- !u!1 &2145311895
 GameObject:
   m_ObjectHideFlags: 0
