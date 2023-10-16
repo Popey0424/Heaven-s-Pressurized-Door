@@ -30,4 +30,9 @@ public class PauseMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Menu");
     }
+
+    public void OnClickExit()
+    {
+        Application.Quit();
+    }
 }

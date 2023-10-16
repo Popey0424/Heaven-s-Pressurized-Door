@@ -604,7 +604,7 @@ MonoBehaviour:
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 1
   TextChoice1: Dare the nun to crash the plane
-  TextChoice2: Ask sister erika what is she doing
+  TextChoice2: Ask Sister Erika what she is doing
   IDNextDialogChoice1: 56
   IDNextDialogChoice2: 52
   IDNextDialogNext: 52
@@ -652,7 +652,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Okay, I'll do YOUR job. Just look after Siter Erika for me, please.
+  TextDialog: Okay, I'll do YOUR job. Just look after Sister Erika for me, please.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: ce58705b5666ca846a79b4cbb80bf3f1, type: 3}
   SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
@@ -1085,7 +1085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MenuPause: {fileID: 2120929556}
-  ImageFade: {fileID: 0}
+  ImageFade: {fileID: 1435158841}
 --- !u!1 &187351035
 GameObject:
   m_ObjectHideFlags: 0
@@ -2201,6 +2201,7 @@ GameObject:
   - component: {fileID: 576216221}
   - component: {fileID: 576216220}
   - component: {fileID: 576216219}
+  - component: {fileID: 576216225}
   m_Layer: 5
   m_Name: ExitGame
   m_TagString: Untagged
@@ -2322,7 +2323,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -2349,7 +2350,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 576216221}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: OnClickResume
+        m_MethodName: OnClickExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2397,6 +2398,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 576216217}
   m_CullTransparentMesh: 1
+--- !u!95 &576216225
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576216217}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7cab8c75d9f81584a99c99fa3b623d1d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &578654314
 GameObject:
   m_ObjectHideFlags: 0
@@ -3476,8 +3498,8 @@ MonoBehaviour:
   SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 1
-  TextChoice1: start to lash out at the nun
-  TextChoice2: tell the sister about the gravity of the situation
+  TextChoice1: Start to lash out at the nun
+  TextChoice2: Tell the sister about the gravity of the situation
   IDNextDialogChoice1: 41
   IDNextDialogChoice2: 39
   IDNextDialogNext: 39
@@ -4306,6 +4328,7 @@ GameObject:
   - component: {fileID: 1043240005}
   - component: {fileID: 1043240007}
   - component: {fileID: 1043240006}
+  - component: {fileID: 1043240008}
   m_Layer: 5
   m_Name: Resume
   m_TagString: Untagged
@@ -4353,7 +4376,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -4502,6 +4525,27 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!95 &1043240008
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043240000}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7cab8c75d9f81584a99c99fa3b623d1d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1050044833
 GameObject:
   m_ObjectHideFlags: 0
@@ -4743,6 +4787,7 @@ GameObject:
   - component: {fileID: 1205501901}
   - component: {fileID: 1205501900}
   - component: {fileID: 1205501899}
+  - component: {fileID: 1205501905}
   m_Layer: 5
   m_Name: ExitToMenu
   m_TagString: Untagged
@@ -4864,7 +4909,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -4939,6 +4984,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1205501897}
   m_CullTransparentMesh: 1
+--- !u!95 &1205501905
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205501897}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7cab8c75d9f81584a99c99fa3b623d1d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1213186245
 GameObject:
   m_ObjectHideFlags: 0
