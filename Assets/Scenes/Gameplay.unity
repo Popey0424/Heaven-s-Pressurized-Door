@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 30047338}
   - component: {fileID: 30047342}
   - component: {fileID: 30047341}
+  - component: {fileID: 30047343}
   m_Layer: 5
   m_Name: Button_Continuer
   m_TagString: Untagged
@@ -184,7 +185,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -319,6 +320,27 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!95 &30047343
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30047336}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7cab8c75d9f81584a99c99fa3b623d1d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &45634829
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,7 +600,7 @@ MonoBehaviour:
     what the Devil have prepared for you all.
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 1
   TextChoice1: Dare the nun to crash the plane
@@ -633,7 +655,7 @@ MonoBehaviour:
   TextDialog: Okay, I'll do YOUR job. Just look after Siter Erika for me, please.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: ce58705b5666ca846a79b4cbb80bf3f1, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: bb963b17cfb0f6c438b70ff0f0f115a0, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -688,7 +710,7 @@ MonoBehaviour:
   TextDialog: Oh no! No more drinks for the pilot except water!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 552b1b642369df7458657ba09873c7ee, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 1ae529cfc0f5fe84a9cf5343b0c57bd4, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -743,7 +765,7 @@ MonoBehaviour:
   TextDialog: Let's continue this way, in the cockpit, mind your head.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 1ae529cfc0f5fe84a9cf5343b0c57bd4, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -798,7 +820,7 @@ MonoBehaviour:
   TextDialog: No worries, it's my job after all!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: ba2ed8ec4a2e1254c9d046f2c22cd0c1, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -854,7 +876,7 @@ MonoBehaviour:
     get your butt in here and JUST FLY US AWAY FROM DESPAIR!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 552b1b642369df7458657ba09873c7ee, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -910,7 +932,7 @@ MonoBehaviour:
     champagne. What do I do?
   TextNameCharacter: Robert
   SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 5195996881142341890, guid: e11073bad4ca1bf49adb8c8091e5442c, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 81952934ccb3675498ebce426dcffe07, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -1190,7 +1212,7 @@ MonoBehaviour:
     of you. You will find these safety instructions in the seat pocket facing you.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 7c2cc0bf37812b14fa69ac105748fc30, type: 3}
-  SpriteBackground: {fileID: 8349518905890314511, guid: f0a845775c04256448da43780e816eb6, type: 3}
+  SpriteBackground: {fileID: 4041873997389788966, guid: c68e58cd44e9248468a393bd56715576, type: 3}
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
@@ -1314,7 +1336,7 @@ MonoBehaviour:
     the safety instructions.
   TextNameCharacter: David Jones
   SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 8016893329708193708, guid: 665927c811b8b5448ad5a594ca93f651, type: 3}
+  SpriteBackground: {fileID: 8349518905890314511, guid: f0a845775c04256448da43780e816eb6, type: 3}
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
@@ -1445,7 +1467,7 @@ MonoBehaviour:
   TextDialog: No, It seems like you can fly a plane by yourself so do it. See you.
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
-  SpriteBackground: {fileID: 5929956133655138739, guid: 874fa0dbea1546c40b20dafc9b76c657, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -1501,7 +1523,7 @@ MonoBehaviour:
     to drink?
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 1c8c1a8a4b021e84a85d038947f9f2e2, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -1612,7 +1634,7 @@ MonoBehaviour:
     such a stressful situation!
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 18dd34c6a1135c640a5cc0116cafd77f, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -1667,7 +1689,7 @@ MonoBehaviour:
   TextDialog: I demand apologies then! Hurry up!
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -1722,7 +1744,7 @@ MonoBehaviour:
   TextDialog: That'll do fine, thank you.
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 18dd34c6a1135c640a5cc0116cafd77f, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 1c8c1a8a4b021e84a85d038947f9f2e2, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -1778,7 +1800,7 @@ MonoBehaviour:
     them? Screaming for us to get out? It's all your fault, BE DAMNED!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: ce58705b5666ca846a79b4cbb80bf3f1, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -1833,7 +1855,7 @@ MonoBehaviour:
   TextDialog: B-but how can I say that knowing we may crash anytime soon!
   TextNameCharacter: Robert
   SpriteCharacter: {fileID: 21300000, guid: c72dde3c5e46de149adbac02377837e3, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
+  SpriteBackground: {fileID: 5195996881142341890, guid: e11073bad4ca1bf49adb8c8091e5442c, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: e7a4b08445ef7c6439e09fc58f1cbe32, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -2057,7 +2079,7 @@ MonoBehaviour:
     that I am not a good nun? IS THAT IT?!
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 18dd34c6a1135c640a5cc0116cafd77f, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 1
   TextChoice1: 'Ask her (politely) to start flying the plane '
@@ -2422,7 +2444,7 @@ MonoBehaviour:
   TextDialog: Alright, I will do my best!
   TextNameCharacter: Robert
   SpriteCharacter: {fileID: 21300000, guid: c72dde3c5e46de149adbac02377837e3, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
+  SpriteBackground: {fileID: 5195996881142341890, guid: e11073bad4ca1bf49adb8c8091e5442c, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 24e2a865b3815794d8a9ba880997a53e, type: 3}
   HasChoice: 1
   TextChoice1: The passengers are calmed down but they are getting hungry
@@ -2479,7 +2501,7 @@ MonoBehaviour:
     it!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: d490e68cde7a0204fbe9d37279624cb6, type: 3}
+  SpriteBackground: {fileID: 4041873997389788966, guid: c68e58cd44e9248468a393bd56715576, type: 3}
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
@@ -2670,7 +2692,7 @@ MonoBehaviour:
     calm.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: d490e68cde7a0204fbe9d37279624cb6, type: 3}
+  SpriteBackground: {fileID: 4041873997389788966, guid: c68e58cd44e9248468a393bd56715576, type: 3}
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
@@ -2759,7 +2781,7 @@ MonoBehaviour:
     we can land safely.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: ce58705b5666ca846a79b4cbb80bf3f1, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -2815,7 +2837,7 @@ MonoBehaviour:
     to landing?
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -2993,7 +3015,7 @@ MonoBehaviour:
     What are we going to do with a knocked down pilot?
   TextNameCharacter: Robert
   SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 21300000, guid: c3160c7c8dd1eb544b41f7d5f9ebb181, type: 3}
+  SpriteBackground: {fileID: 5082719878602851436, guid: c46c1256c7e1b604683b92f3d4c3fcb8, type: 3}
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
@@ -3049,7 +3071,7 @@ MonoBehaviour:
     during the landing?
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
+  SpriteBackground: {fileID: 5195996881142341890, guid: e11073bad4ca1bf49adb8c8091e5442c, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: ba2ed8ec4a2e1254c9d046f2c22cd0c1, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -3105,7 +3127,7 @@ MonoBehaviour:
     your mouth! '
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -3128,6 +3150,7 @@ GameObject:
   - component: {fileID: 757837396}
   - component: {fileID: 757837398}
   - component: {fileID: 757837397}
+  - component: {fileID: 757837399}
   m_Layer: 5
   m_Name: Button_Pause
   m_TagString: Untagged
@@ -3175,7 +3198,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -3324,6 +3347,27 @@ MonoBehaviour:
   ColorInitial: {r: 0, g: 0, b: 0, a: 1}
   ColorSelected: {r: 1, g: 1, b: 1, a: 1}
   Text: {fileID: 1735244408}
+--- !u!95 &757837399
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757837391}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7cab8c75d9f81584a99c99fa3b623d1d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &763879657
 GameObject:
   m_ObjectHideFlags: 0
@@ -3373,7 +3417,7 @@ MonoBehaviour:
     tell them.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
+  SpriteBackground: {fileID: 5195996881142341890, guid: e11073bad4ca1bf49adb8c8091e5442c, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: bb963b17cfb0f6c438b70ff0f0f115a0, type: 3}
   HasChoice: 1
   TextChoice1: Be a true professional and reassure ther safety
@@ -3429,7 +3473,7 @@ MonoBehaviour:
   TextDialog: Stop stressing me out! I am not the one who got the pilot drunk.
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 1
   TextChoice1: start to lash out at the nun
@@ -3484,7 +3528,7 @@ MonoBehaviour:
   TextDialog: Oh my, thank you so much Bonnie!
   TextNameCharacter: Robert
   SpriteCharacter: {fileID: 21300000, guid: c72dde3c5e46de149adbac02377837e3, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 5195996881142341890, guid: e11073bad4ca1bf49adb8c8091e5442c, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 81952934ccb3675498ebce426dcffe07, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -3540,7 +3584,7 @@ MonoBehaviour:
     Sister Erika!
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: c72dde3c5e46de149adbac02377837e3, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
+  SpriteBackground: {fileID: 5195996881142341890, guid: e11073bad4ca1bf49adb8c8091e5442c, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 19475ec70162a7647b01f8c8a4783009, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -3595,7 +3639,7 @@ MonoBehaviour:
   TextDialog: My apologies, we do have regular pillows, would that be ok?
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 1ae529cfc0f5fe84a9cf5343b0c57bd4, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -3728,7 +3772,7 @@ MonoBehaviour:
     doesn't wear Prada but a religious garment, isn't it?
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: f3c75686de298d9478b001eb993fe424, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -3905,7 +3949,7 @@ MonoBehaviour:
   TextDialog: NOOOOO SISTER!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -3960,7 +4004,7 @@ MonoBehaviour:
   TextDialog: Oh, you wouldn't dare to crash this plane?
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: ce58705b5666ca846a79b4cbb80bf3f1, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -4015,7 +4059,7 @@ MonoBehaviour:
   TextDialog: YOU SHOULD WATCH YOUR LANGU-
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 552b1b642369df7458657ba09873c7ee, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -4071,7 +4115,7 @@ MonoBehaviour:
     YOU'RE THE CRAZY ONE!
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -4127,7 +4171,7 @@ MonoBehaviour:
     one of the numerous requirements of you religious engagement.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: ce58705b5666ca846a79b4cbb80bf3f1, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -4182,7 +4226,7 @@ MonoBehaviour:
   TextDialog: Are we landing soon Sister ?
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: ba2ed8ec4a2e1254c9d046f2c22cd0c1, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -4239,7 +4283,7 @@ MonoBehaviour:
     We need to act NOW AND FAST!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 552b1b642369df7458657ba09873c7ee, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -4506,7 +4550,7 @@ MonoBehaviour:
     better get us out of this mess alive !
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -4561,7 +4605,7 @@ MonoBehaviour:
   TextDialog: Oh my God, we are doomed. What have we done?!
   TextNameCharacter: Robert
   SpriteCharacter: {fileID: 21300000, guid: 18dd34c6a1135c640a5cc0116cafd77f, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
+  SpriteBackground: {fileID: 5195996881142341890, guid: e11073bad4ca1bf49adb8c8091e5442c, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: e7a4b08445ef7c6439e09fc58f1cbe32, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -4676,7 +4720,7 @@ MonoBehaviour:
     your voice anymore.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -4943,7 +4987,7 @@ MonoBehaviour:
     or at least the nearest airport.
   TextNameCharacter: Robert
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: e7a4b08445ef7c6439e09fc58f1cbe32, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -4999,7 +5043,7 @@ MonoBehaviour:
     so, please step at the head of the plane.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
+  SpriteBackground: {fileID: 4041873997389788966, guid: c68e58cd44e9248468a393bd56715576, type: 3}
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
@@ -5088,7 +5132,7 @@ MonoBehaviour:
     just dial down the anxiety.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 5195996881142341890, guid: e11073bad4ca1bf49adb8c8091e5442c, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 8b6d8c6ed306a4f40a72de22cf18fd03, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -5144,7 +5188,7 @@ MonoBehaviour:
     is like riding a bike, you never forget.
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 18dd34c6a1135c640a5cc0116cafd77f, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 19475ec70162a7647b01f8c8a4783009, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -5200,7 +5244,7 @@ MonoBehaviour:
     the flight, please.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
+  SpriteBackground: {fileID: 5195996881142341890, guid: e11073bad4ca1bf49adb8c8091e5442c, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 011d287a85c8c3b489d56baf12954ba4, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -5468,7 +5512,7 @@ MonoBehaviour:
   TextDialog: So, they are furious at me and they are juuust behind the curtains.
   TextNameCharacter: Robert
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: e7a4b08445ef7c6439e09fc58f1cbe32, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -5700,7 +5744,7 @@ MonoBehaviour:
   TextDialog: I accept your apologies and yes, in about 45 minutes.
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -5890,7 +5934,7 @@ MonoBehaviour:
   TextDialog: No, no, Sister Erika! What are you doing?
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -6082,7 +6126,7 @@ MonoBehaviour:
   TextDialog: Do you happen to have a duck feather cushion for my sweet old bottom?
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 18dd34c6a1135c640a5cc0116cafd77f, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 1c8c1a8a4b021e84a85d038947f9f2e2, type: 3}
   HasChoice: 1
   TextChoice1: 'Ask her why we should have duck cushions '
@@ -6137,7 +6181,7 @@ MonoBehaviour:
   TextDialog: No, we don't. We're in an aircraft, not at a tea party!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: ce58705b5666ca846a79b4cbb80bf3f1, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: ba2ed8ec4a2e1254c9d046f2c22cd0c1, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -6193,7 +6237,7 @@ MonoBehaviour:
     up straight?
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: ba2ed8ec4a2e1254c9d046f2c22cd0c1, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -6248,7 +6292,7 @@ MonoBehaviour:
   TextDialog: But Sister! We are not going to last without you!  We NEED your help!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -6304,7 +6348,7 @@ MonoBehaviour:
     sent you to help us today '
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
+  SpriteBackground: {fileID: 5195996881142341890, guid: e11073bad4ca1bf49adb8c8091e5442c, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 1ae529cfc0f5fe84a9cf5343b0c57bd4, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -6496,7 +6540,7 @@ MonoBehaviour:
   TextDialog: I'M TOO YOUNG TO DIE!
   TextNameCharacter: Robert
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: e7a4b08445ef7c6439e09fc58f1cbe32, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -6973,7 +7017,7 @@ MonoBehaviour:
   TextDialog: Me, me, I flew a plane once!
   TextNameCharacter: ???
   SpriteCharacter: {fileID: 21300000, guid: c72dde3c5e46de149adbac02377837e3, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
+  SpriteBackground: {fileID: 5195996881142341890, guid: e11073bad4ca1bf49adb8c8091e5442c, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 19475ec70162a7647b01f8c8a4783009, type: 3}
   HasChoice: 1
   TextChoice1: Be respectful to the nun, she is probably in a religious retreat
@@ -7163,7 +7207,7 @@ MonoBehaviour:
   TextDialog: Watch me darling!
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 19475ec70162a7647b01f8c8a4783009, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -7219,7 +7263,7 @@ MonoBehaviour:
     alright?
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 18dd34c6a1135c640a5cc0116cafd77f, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -7274,7 +7318,7 @@ MonoBehaviour:
   TextDialog: Wait, Sister Erika! You can't just leave us like that!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -7329,7 +7373,7 @@ MonoBehaviour:
   TextDialog: Sister! Please calm down! We are already stressed enough by the situation!
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: e5ab1ca66da085240b75583a61784ded, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 05e5d892849e68e4c9530c5fd5fa5d1b, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -7386,7 +7430,7 @@ MonoBehaviour:
     and to celebrate accordingly, we will serve unlimited champagne to everyone.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 21300000, guid: 5dbc00833dffeaf4198332f432ff9b80, type: 3}
+  SpriteBackground: {fileID: 4536690318535114392, guid: 707224aa72e7f57489e0786b0fbbe6e2, type: 3}
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
@@ -7442,7 +7486,7 @@ MonoBehaviour:
     to yell at me, I may not feel like helping you at all.
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 552b1b642369df7458657ba09873c7ee, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -7498,7 +7542,7 @@ MonoBehaviour:
     sitting back there. They might start to panic.
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 18dd34c6a1135c640a5cc0116cafd77f, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 1c8c1a8a4b021e84a85d038947f9f2e2, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -7689,7 +7733,7 @@ MonoBehaviour:
     !!!
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -7913,7 +7957,7 @@ MonoBehaviour:
     pilot, so we hopefully won''t die today."'
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
+  SpriteBackground: {fileID: 5195996881142341890, guid: e11073bad4ca1bf49adb8c8091e5442c, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: bb963b17cfb0f6c438b70ff0f0f115a0, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -7970,7 +8014,7 @@ MonoBehaviour:
     you again for choosing our company."'
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
+  SpriteBackground: {fileID: 5195996881142341890, guid: e11073bad4ca1bf49adb8c8091e5442c, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 8b6d8c6ed306a4f40a72de22cf18fd03, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -8026,7 +8070,7 @@ MonoBehaviour:
     aisles! They are demanding to know what is up with the yelling in the cockpit.
   TextNameCharacter: Robert
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 806950663431308813, guid: 30e684c7bc705dd4eba4ca422dfc24fd, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 81952934ccb3675498ebce426dcffe07, type: 3}
   HasChoice: 0
   TextChoice1: 
