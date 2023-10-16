@@ -1044,7 +1044,7 @@ MonoBehaviour:
   ButtonContinuer: {fileID: 30047338}
   lines:
   - tjdjtjttjtjd
-  textSpeed: 0.05
+  textSpeed: 0.02
   ImageFade2: {fileID: 519638396}
   ImageFade4: {fileID: 45634831}
   dialogueTriggerNumber: 68
