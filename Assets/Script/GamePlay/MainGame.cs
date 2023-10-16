@@ -16,9 +16,10 @@ public class MainGame : MonoBehaviour
     public TMP_Text TextCharacterName;
     public Image ImageCharacter;
     public DialogSequence[] Dialogs;
-    public Image spriteBackground;
+    public GameObject spriteBackground;
     public Image ImageCharacter2;
     public Button choiceButton1;
+    
 
     public Button choiceButton2;
 
@@ -152,7 +153,12 @@ public class MainGame : MonoBehaviour
 
         TextCharacterName.text = sequence.TextNameCharacter;
 
-        spriteBackground.sprite = sequence.SpriteBackground;
+        if  (spriteBackground != null )
+        {
+            GameObject.Destroy(spriteBackground);
+        }
+
+        spriteBackground = GameObject.Instantiate( sequence.SpriteBackground);
 
         UpdateCharacter(ImageCharacter, sequence.SpriteCharacter);
         UpdateCharacter(ImageCharacter2, sequence.SpriteCharacter2);
