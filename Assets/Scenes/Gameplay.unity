@@ -2745,12 +2745,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439f11b1744c56146ad574f111a0de2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: 'Tell them : "Ladies and gentlemen, please regain your assigned seats
-    and remain calm."'
+  TextDialog: Ladies and gentlemen, please regain your assigned seats and remain
+    calm.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 7666db01408ef284591389b7876113ea, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 418b2d9471a273f4bbdf6eb30192451f, type: 3}
-  SpriteCharacter2: {fileID: 21300000, guid: 011d287a85c8c3b489d56baf12954ba4, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: d490e68cde7a0204fbe9d37279624cb6, type: 3}
+  SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
   TextChoice2: 
