@@ -12,6 +12,7 @@ using DG.Tweening;
 public class MainGame : MonoBehaviour
 {
 
+    public Canvas MainCanvas;
     public TMP_Text TextDialog;
     public TMP_Text TextCharacterName;
     public Image ImageCharacter;
@@ -72,7 +73,6 @@ public class MainGame : MonoBehaviour
             ShowButtonsToContinue(Dialogs[_sequenceNumber]);
         }
 
-        print(_sequenceNumber);
         if (_sequenceNumber == dialogueTriggerNumber)
         {
             ImageFade2.DOFade(1, 2.9f).OnComplete(FadeComplete);
@@ -158,7 +158,8 @@ public class MainGame : MonoBehaviour
             GameObject.Destroy(spriteBackground);
         }
 
-        spriteBackground = GameObject.Instantiate( sequence.SpriteBackground);
+        spriteBackground = GameObject.Instantiate( sequence.SpriteBackground, MainCanvas.transform , false);
+        spriteBackground.transform.SetAsFirstSibling();
 
         UpdateCharacter(ImageCharacter, sequence.SpriteCharacter);
         UpdateCharacter(ImageCharacter2, sequence.SpriteCharacter2);

@@ -1037,7 +1037,7 @@ MonoBehaviour:
   - {fileID: 294395053}
   - {fileID: 0}
   - {fileID: 0}
-  spriteBackground: {fileID: 196838762}
+  spriteBackground: {fileID: 0}
   ImageCharacter2: {fileID: 1797465317}
   choiceButton1: {fileID: 729243050}
   choiceButton2: {fileID: 851488788}
@@ -1139,82 +1139,6 @@ RectTransform:
   m_AnchoredPosition: {x: -486.56006, y: -59.866394}
   m_SizeDelta: {x: 617.1, y: 960.2667}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &196838761
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 196838764}
-  - component: {fileID: 196838763}
-  - component: {fileID: 196838762}
-  m_Layer: 5
-  m_Name: Background
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &196838762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 196838761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &196838763
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 196838761}
-  m_CullTransparentMesh: 1
---- !u!224 &196838764
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 196838761}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1367790788}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &198090974
 GameObject:
   m_ObjectHideFlags: 0
@@ -1265,7 +1189,7 @@ MonoBehaviour:
     of you. You will find these safety instructions in the seat pocket facing you.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 7c2cc0bf37812b14fa69ac105748fc30, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: d490e68cde7a0204fbe9d37279624cb6, type: 3}
+  SpriteBackground: {fileID: 8349518905890314511, guid: f0a845775c04256448da43780e816eb6, type: 3}
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
@@ -1389,7 +1313,7 @@ MonoBehaviour:
     the safety instructions.
   TextNameCharacter: David Jones
   SpriteCharacter: {fileID: 0}
-  SpriteBackground: {fileID: 21300000, guid: faaec806a0f7f88469bf481873b40d02, type: 3}
+  SpriteBackground: {fileID: 8349518905890314511, guid: f0a845775c04256448da43780e816eb6, type: 3}
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
@@ -1520,7 +1444,7 @@ MonoBehaviour:
   TextDialog: No, It seems like you can fly a plane by yourself so do it. See you.
   TextNameCharacter: Sister Erika
   SpriteCharacter: {fileID: 21300000, guid: 91c30fbb05ab23c4cb40836b71018698, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 2e58a964391492c4c925f70a292016cc, type: 3}
+  SpriteBackground: {fileID: 5929956133655138739, guid: 874fa0dbea1546c40b20dafc9b76c657, type: 3}
   SpriteCharacter2: {fileID: 21300000, guid: 7b998e3043e638f438642eba863bacee, type: 3}
   HasChoice: 0
   TextChoice1: 
@@ -4705,7 +4629,7 @@ MonoBehaviour:
     your seatbelt and your little ones safely too until the end of the sign.
   TextNameCharacter: Bonnie
   SpriteCharacter: {fileID: 21300000, guid: 8786e2edf6904844d827a63773920905, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: d490e68cde7a0204fbe9d37279624cb6, type: 3}
+  SpriteBackground: {fileID: 4041873997389788966, guid: c68e58cd44e9248468a393bd56715576, type: 3}
   SpriteCharacter2: {fileID: 0}
   HasChoice: 0
   TextChoice1: 
@@ -5389,7 +5313,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 196838764}
   - {fileID: 1797465316}
   - {fileID: 187351038}
   - {fileID: 30047337}
